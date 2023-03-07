@@ -84,6 +84,17 @@ Tab1Section:NewSlider("Fov", "20-120", 120, 20, function(v) -- 120 (MaxValue) | 
 
 end)
 
+local Tab2Section = Tab2:NewSection("Admin Command")
+
+Tab2Section:NewButton("Infinite Yield","FE Infinite Yield",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local Tab2Section = Tab2:NewSection("Fly Script")
+
+Tab2Section:NewButton("Fly Gui V3","FE FLY GUI V3",function()
+
+
 Tab2Section:NewToggle("Slap Aura", "Slap All People", function(bool)
 
         getgenv().SlapAura = bool
