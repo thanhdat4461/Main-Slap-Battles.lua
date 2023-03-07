@@ -393,48 +393,48 @@ Tab2Section:NewToggle("Spam Error Sound","Ghost + Error = More Anonying",functio
 local Tab2Section = Tab2:NewSection("Anti Stuff")
 
 Tab2Section:NewToggle("Anti Reaper","No Longer Dying On Reaper User",function(bool)
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
 		
+        getgenv().AntiReaper = bool
+
+        
+
+        if bool == true then
+
+            
+
+            while getgenv().AntiReaper do
+
+            
+
+                wait(.001)
+
+            
+
+                for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+
+                    if v.Name == "DeathMark" then
+
+                    game:GetService("ReplicatedStorage").ReaperGone:FireServer(game:GetService("Players").LocalPlayer.Character.DeathMark)
+
+                    game:GetService("Lighting"):WaitForChild("DeathMarkColorCorrection"):Destroy() 
+
+                    end 
+
+        
+
+                end
+
+            
+
+            end
+
+            
+
+        end
+
+        
+
+    end)
 		
 Tab2Section:NewToggle("Anti Void","No Longer Fall On Void",function(noVoid)
 
