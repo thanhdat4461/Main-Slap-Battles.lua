@@ -36,7 +36,7 @@ local window = kavoUi.CreateLib("Slap Battles Main/BkuIl Hub","Ocean")
 
 local Tab1 = window:NewTab("LocalPlayer")
 
-local Tab1Section = Tab1:NewSection("LocalPlayer")
+local Tab1Section = Tab1:NewSection("Setting")
 
 local Tab2 = window:NewTab("Combat")
 
@@ -64,7 +64,7 @@ local Tab6Section = Tab6:NewSection("Auto Get Tycoon Made By Anakin")
 
 local Tab6Section = Tab6:NewSection("Auto Get Elude Made By BluB")
 
-local Tab6Section = Tab6:NewSection("Auto Get [ REDACTED ] Made By Anakin")
+local Tab6Section = Tab6:NewSection("Auto Get REDACTED Made By Anakin")
 
 
 ---Buttons
@@ -209,7 +209,8 @@ game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 
 ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end)
-
+end)
+		
 Tab2Section:NewButton("Infinite Yield","FE Infinite Yield",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
@@ -633,7 +634,7 @@ game:GetService("TeleportService"):Teleport(11828384869)
 
 end)
 
-Tab4Section:NewButton("Auto Get [ REDACTED ]","Free Redacted",function()
+Tab4Section:NewButton("Auto Get REDACTED","Free REDACTED",function()
 
     local Door = 1
 
