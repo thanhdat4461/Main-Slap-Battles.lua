@@ -671,3 +671,20 @@ print("OR YOU DONT HAVE 5K SLAPS")
 end
 
 end)               
+
+Tab5Section:NewButton("BkvIl Hub Discord Link","This My Server",function()
+		
+        if setclipboard then
+
+            
+
+            setclipboard("https://discord.gg/KMkc2vSf")
+
+            
+
+        end
+
+        
+
+    end)
+		
