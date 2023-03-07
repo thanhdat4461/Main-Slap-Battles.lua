@@ -93,8 +93,9 @@ end)
 local Tab2Section = Tab2:NewSection("Fly Script")
 
 Tab2Section:NewButton("Fly Gui V3","FE FLY GUI V3",function()
-
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/Fly-Gui-V3.lua/main/Fly%20Gui%20V3.lua"))()
+end)
+		
 Tab2Section:NewToggle("Slap Aura", "Slap All People", function(bool)
 
         getgenv().SlapAura = bool
