@@ -66,6 +66,7 @@ local Tab6Section = Tab6:NewSection("Auto Get Elude Made By BluB")
 
 local Tab6Section = Tab6:NewSection("Auto Get REDACTED Made By Anakin")
 
+local Tab6Section = Tab6:NewSection("Auto Enter Arena Made By Hackedman")
 
 ---Buttons
 
@@ -671,6 +672,10 @@ print("OR YOU DONT HAVE 5K SLAPS")
 end
 
 end)               
+
+Tab4Section:NewButton("Auto Get Fish","Player Can't See you",function()
+
+
 
 Tab5Section:NewButton("BkvIl Hub Discord Link","This My Server",function()
 		
