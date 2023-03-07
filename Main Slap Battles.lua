@@ -95,7 +95,7 @@ Tab1Section:NewButton("Click TP Tools","FE Click TP",function()
 mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.RequiresHandle = false tool.Name = "Equip to Click TP" tool.Activated:connect(function() local pos = mouse.Hit+Vector3.new(0,2.5,0) pos = CFrame.new(pos.X,pos.Y,pos.Z) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos end) tool.Parent = game.Players.LocalPlayer.Backpack
 end)
 
-Tab2Section:NewButton("AntiLag","FE AntiLag",function()
+Tab1Section:NewButton("AntiLag","FE AntiLag",function()
 local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
 
 local g = game
@@ -215,6 +215,10 @@ Tab2Section:NewButton("Infinite Yield","FE Infinite Yield",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+Tab2Section:NewButton("Fates Admin","FE Fates",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+end)
+		
 local Tab2Section = Tab2:NewSection("Fly Script")
 
 Tab2Section:NewButton("Fly Gui V2","FE FLY GUI V2",function()
