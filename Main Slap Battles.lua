@@ -674,8 +674,8 @@ end
 end)               
 
 Tab4Section:NewButton("Auto Get Fish","Player Can't See you",function()
-
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/auto-get-fish.lua/main/auto%20get%20fish.lua"))()
+end)
 
 Tab5Section:NewButton("BkvIl Hub Discord Link","This My Server",function()
 		
