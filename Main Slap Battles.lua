@@ -234,7 +234,7 @@ Tab2Section:NewToggle("Auto Enter Arena", "This Keep Tp on arena while die", fun
 
     end)
 		
-local Tab2Section = Tab2:NewSection("Spam Stuff Sound Anonying")
+local Tab2Section = Tab2:NewSection("Spam Stuff Sound")
 
 Tab2Section:NewButton("Spam Ghost Sound","This Sound Is Anonying",function()
  for x = 1,5 do
@@ -267,9 +267,113 @@ for x = 1,math.huge do
 
 end)    
 
- 
+Tab2Section:NewToggle("Spam Error Sound","Ghost + Error = More Anonying",function(bool)
 
- local Tab2Section = Tab2:NewSection("Anti Stuff")
+        errorSpam = bool
+
+        
+
+        if bool == true then
+
+            
+
+            while errorSpam do
+
+                
+
+                task.wait()
+
+                
+
+                game.ReplicatedStorage.ErrorDeath:FireServer()
+
+                
+
+            end
+
+        end
+
+        
+
+    end)
+
+local Tab2Section = Tab2:NewSection("Anti Stuff")
+
+Tab2Section:NewToggle("Anti Void","No Longer Fall On Void",function(noVoid)
+
+        if noVoid == true then
+
+            
+
+            for i,v in pairs(game.Workspace:GetDescendants()) do
+
+                
+
+                if v.Name == "dedBarrier"  or v.Name == "ArenaBarrier" or v.Name == "DEATHBARRIER" or v.Name == "DEATHBARRIER2" then
+
+           
+
+                    if v.CanCollide == false then
+
+               
+
+                        v.CanCollide = true
+
+               
+
+               
+
+                    end
+
+           
+
+                end
+
+                
+
+            end
+
+            
+
+            else
+
+                
+
+            for i,v in pairs(game.Workspace:GetDescendants()) do
+
+                
+
+                if v.Name == "dedBarrier"  or v.Name == "ArenaBarrier" or v.Name == "DEATHBARRIER" or v.Name == "DEATHBARRIER2" then
+
+           
+
+                    if v.CanCollide == true then
+
+               
+
+                        v.CanCollide = false
+
+               
+
+               
+
+                    end
+
+           
+
+                end
+
+                
+
+            end
+
+        
+
+        end
+
+    
+
+    end)
 
 Tab3Section:NewToggle("Slapple AutoFram", "Collect All Slapple", function(bool)
 
