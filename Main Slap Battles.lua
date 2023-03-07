@@ -1,6 +1,7 @@
-	local function getGlove()
 
-	    
+        local Gloves = loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/file/main/Glove.lua"))()
+
+	local function getGlove()	    
 
 	    return game.Players.LocalPlayer.leaderstats.Glove.Value
 
@@ -8,7 +9,24 @@
 
 	end
 
+	
+
+	
+
+    local Hittables = {"Right Leg", "Left Leg", "Torso", "Head"}
+
+    
+
+    local Hit = math.random(#Hittables)
+
+    
+
+    local toHit = Hittables[Hit]
+
+
 	local pathfindingService = game:GetService("PathfindingService")
+
+
 
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
@@ -67,8 +85,6 @@ Tab1Section:NewSlider("Fov", "20-120", 120, 20, function(v) -- 120 (MaxValue) | 
 end)
 
 Tab2Section:NewToggle("Slap Aura", "Slap All People", function(bool)
-
-    
 
         getgenv().SlapAura = bool
 
@@ -159,9 +175,6 @@ Tab2Section:NewToggle("Slap Aura", "Slap All People", function(bool)
 local Tab2Section = Tab2:NewSection("Spam Stuff Sound Anonying")
 
 Tab2Section:NewButton("Spam Ghost Sound","This Sound Is Anonying",function()
-
- 
-
  for x = 1,5 do
 
 for x = 1,math.huge do
@@ -195,42 +208,6 @@ end)
  
 
  local Tab2Section = Tab2:NewSection("Anti Stuff")
-
- 
-
- Tab2Section:NewToggle("Anti KillBrick (Obby Glove)", "You No Longer Take Damage", function(a)
-
-    getgenv().disable = a
-
-     if getgenv().disable == true then
-
-      for i,v in pairs(game.Players:GetChildren()) do
-
-        if v.leaderstats.Glove.Value == "Obby" then
-
-          disable(v.Name, false)
-
-        end
-
-     end
-
-   else
-
-       for i,v in pairs(game.Players:GetChildren()) do
-
-        if v.leaderstats.Glove.Value == "Obby" then
-
-          disable(v.Name, true)
-
-        end
-
-     end
-
-  end
-
-end)
-
-end)
 
 Tab3Section:NewToggle("Slapple AutoFram", "Collect All Slapple", function(bool)
 
