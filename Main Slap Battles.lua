@@ -182,8 +182,58 @@ Tab2Section:NewToggle("Slap Aura", "Slap All People", function(bool)
 
     end)
 
-      
+Tab2Section:NewToggle("Auto Enter Arena", "This Keep Tp on arena while die", function(bool)
+		
+        getgenv().autoJoin = bool
 
+            if bool == true then
+
+                while getgenv().autoJoin do
+
+                    wait()
+
+                        
+
+                        repeat task.wait() until game.Players.LocalPlayer.Character
+
+                    
+
+                    
+
+                        if not game.Players.LocalPlayer.Character:FindFirstChild("entered") and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+
+                            
+
+                            repeat task.wait(.005)
+
+                                
+
+                            firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace.Lobby.Teleport1.TouchInterest.Parent, 0)
+
+                            
+
+                            firetouchinterest(game.Players.LocalPlayer.Character:WaitForChild("Head"), workspace.Lobby.Teleport1.TouchInterest.Parent, 1)
+
+                            
+
+                            until game.Players.LocalPlayer.Character:FindFirstChild("entered")
+
+                            
+
+                        end
+
+                        
+
+                        
+
+                end
+
+            end
+
+    
+
+    end)
+		
 local Tab2Section = Tab2:NewSection("Spam Stuff Sound Anonying")
 
 Tab2Section:NewButton("Spam Ghost Sound","This Sound Is Anonying",function()
