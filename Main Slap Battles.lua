@@ -44,11 +44,11 @@ local Tab2Section = Tab2:NewSection("Admin Command")
 
 local Tab3 = window:NewTab("AutoFram")
 
-local Tab3Section = Tab3:NewSection("AutoFram")
+local Tab3Section = Tab3:NewSection("Fram Slap")
 
 local Tab4 = window:NewTab("Badges")
 
-local Tab4Section = Tab4:NewSection("Free Badges Glove")
+local Tab4Section = Tab4:NewSection("Free Glove")
 
 local Tab5 = window:NewTab("Discord Server Link")
 
@@ -64,7 +64,7 @@ local Tab6Section = Tab6:NewSection("Auto Get Tycoon Made By Anakin")
 
 local Tab6Section = Tab6:NewSection("Auto Get Elude Made By BluB")
 
-local Tab6Section = Tab6:NewSection("Auto Get [REDACTED] Made By Anakin")
+local Tab6Section = Tab6:NewSection("Auto Get [ REDACTED ] Made By Anakin")
 
 
 ---Buttons
@@ -189,7 +189,7 @@ end)
 		
 local Tab2Section = Tab2:NewSection("Main")
 
-Tab2Section:NewToggle("Slap Aura", "Slap All People", function(bool)
+Tab2Section:NewToggle("Slap Aura", "Automatically Slap People", function(bool)
 
         getgenv().SlapAura = bool
 
@@ -275,7 +275,7 @@ Tab2Section:NewToggle("Slap Aura", "Slap All People", function(bool)
 
     end)
 
-Tab2Section:NewToggle("Auto Enter Arena", "This Keep Tp on arena while die", function(bool)
+Tab2Section:NewToggle("Auto Enter Arena", "Automatically Enter Arean When die", function(bool)
 		
         getgenv().autoJoin = bool
 
@@ -392,6 +392,50 @@ Tab2Section:NewToggle("Spam Error Sound","Ghost + Error = More Anonying",functio
 
 local Tab2Section = Tab2:NewSection("Anti Stuff")
 
+Tab2Section:NewToggle("Anti Reaper","No Longer Dying On Reaper User",function(bool)
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+		
+		
 Tab2Section:NewToggle("Anti Void","No Longer Fall On Void",function(noVoid)
 
         if noVoid == true then
@@ -468,7 +512,7 @@ Tab2Section:NewToggle("Anti Void","No Longer Fall On Void",function(noVoid)
 
     end)
 
-Tab3Section:NewToggle("Slapple AutoFram", "Collect All Slapple", function(bool)
+Tab3Section:NewToggle("Slapple AutoFram", "Automatically Collect All Slapple", function(bool)
 
             getgenv().Slapple = bool
 
@@ -550,7 +594,7 @@ game:GetService("TeleportService"):Teleport(11828384869)
 
 end)
 
-Tab4Section:NewButton("Auto Get [REDACTED]","Free Redacted",function()
+Tab4Section:NewButton("Auto Get [ REDACTED ]","Free Redacted",function()
 
     local Door = 1
 
