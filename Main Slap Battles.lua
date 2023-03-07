@@ -40,7 +40,7 @@ local Tab1Section = Tab1:NewSection("LocalPlayer")
 
 local Tab2 = window:NewTab("Combat")
 
-local Tab2Section = Tab2:NewSection("Main")
+local Tab2Section = Tab2:NewSection("Admin Command")
 
 local Tab3 = window:NewTab("AutoFram")
 
@@ -84,8 +84,6 @@ Tab1Section:NewSlider("Fov", "20-120", 120, 20, function(v) -- 120 (MaxValue) | 
 
 end)
 
-local Tab2Section = Tab2:NewSection("Admin Command")
-
 Tab2Section:NewButton("Infinite Yield","FE Infinite Yield",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
@@ -95,7 +93,9 @@ local Tab2Section = Tab2:NewSection("Fly Script")
 Tab2Section:NewButton("Fly Gui V3","FE FLY GUI V3",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/Fly-Gui-V3.lua/main/Fly%20Gui%20V3.lua"))()
 end)
-		
+
+local Tab2Section = Tab2:NewSection("Main")
+
 Tab2Section:NewToggle("Slap Aura", "Slap All People", function(bool)
 
         getgenv().SlapAura = bool
