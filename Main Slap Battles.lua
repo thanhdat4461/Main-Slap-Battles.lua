@@ -1,40 +1,3 @@
-        if not game:IsLoaded() then
-
-        
-
-        game.Loaded:Wait()
-
-        
-
-    end
-
-    
-
-    local Character = game.Players.LocalPlayer.Character
-
-    
-
-    task.wait()
-
-    
-
-    if game.PlaceId == 6403373529 or game.PlaceId == 11520107397 or game.PlaceId == 9015014224 then
-
-    
-
-    task.wait()
-
-    
-
-    if setfpscap then
-
-        
-
-        setfpscap(1269)
-
-        
-
-    end
 
         local Gloves = loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/file/main/Glove.lua"))()
 
@@ -623,10 +586,6 @@ Tab3Section:NewToggle("Slapple AutoFram", "Automatically Collect All Slapple", f
                 end
 
     end)
-
-Tab3Section:NewToggle("Universal Slap Farm","Ghost + Error = More Anonying",function(bool)   
-loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/Slap-All-People.lua/main/Slap%20All%20People.lua"))()
-end)
 
 Tab4Section:NewButton("Auto Get Tycoon","Free Tycoon",function()
 
