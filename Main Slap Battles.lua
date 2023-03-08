@@ -1,3 +1,40 @@
+        if not game:IsLoaded() then
+
+        
+
+        game.Loaded:Wait()
+
+        
+
+    end
+
+    
+
+    local Character = game.Players.LocalPlayer.Character
+
+    
+
+    task.wait()
+
+    
+
+    if game.PlaceId == 6403373529 or game.PlaceId == 11520107397 or game.PlaceId == 9015014224 then
+
+    
+
+    task.wait()
+
+    
+
+    if setfpscap then
+
+        
+
+        setfpscap(1269)
+
+        
+
+    end
 
         local Gloves = loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/file/main/Glove.lua"))()
 
@@ -30,7 +67,7 @@
 
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local window = kavoUi.CreateLib("Slap Battles Main/BkuIl Hub","Ocean")
+local window = kavoUi.CreateLib("Slap Battles Main // BkuIl Hub","Ocean")
 
 ---Tabs
 
