@@ -625,8 +625,8 @@ Tab3Section:NewToggle("Slapple AutoFram", "Automatically Collect All Slapple", f
     end)
 
 Tab3Section:NewToggle("Universal Slap Farm","Ghost + Error = More Anonying",function(bool)   
-
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/Slap-All-People.lua/main/Slap%20All%20People.lua"))()
+end)
 
 Tab4Section:NewButton("Auto Get Tycoon","Free Tycoon",function()
 
