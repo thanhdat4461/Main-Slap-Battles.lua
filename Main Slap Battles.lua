@@ -238,6 +238,80 @@ end)
 		
 local Tab2Section = Tab2:NewSection("Main")
 
+Tab2Section:NewToggle("Auto Invisible (OP)","Someone Can't See You When Invisible",function(bool)
+
+        autoInvis = bool
+
+        
+
+        if bool == true then
+
+            
+
+            game.Players.LocalPlayer.CharacterAdded:Connect(function()
+
+                
+
+                if autoInvis == true and 666 <= game.Players.LocalPlayer.leaderstats.Slaps.Value then
+
+                    
+
+                    task.wait()
+
+                    
+
+                    game.ReplicatedStorage.Ghostinvisibilitydeactivated:FireServer()
+
+                    
+
+                    task.wait(.1)
+
+                    
+
+                    
+
+                    local gloveClick = game.Players.LocalPlayer.leaderstats.Glove.Value
+
+                    
+
+                    task.wait(.2)
+
+                    
+
+                    fireclickdetector(game.Workspace.Lobby.Ghost.ClickDetector)
+
+                    
+
+                    task.wait(.2)
+
+                    
+
+                    game.ReplicatedStorage.Ghostinvisibilityactivated:FireServer()
+
+                    
+
+                    task.wait(.2)
+
+                    
+
+                    fireclickdetector(game.Workspace.Lobby[gloveClick].ClickDetector)
+
+                    
+
+                end
+
+                
+
+            end)
+
+            
+
+        end
+
+    
+
+    end)
+
 Tab2Section:NewToggle("Slap Aura", "Automatically Slap People", function(bool)
 
         getgenv().SlapAura = bool
