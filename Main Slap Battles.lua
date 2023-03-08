@@ -621,7 +621,95 @@ Tab2Section:NewToggle("Anti Reaper","No Longer Dying On Reaper User",function(bo
 
 Tab2Section:NewToggle("Anti MegaRock / Custom","No Longer Dying On Megarock or custom",function(bool)
 
+        AntiRock = bool
 
+        
+
+        if bool == true then
+
+            
+
+            while AntiRock do
+
+                
+
+                task.wait(.1)
+
+                
+
+        for _, Instance in pairs(game.Workspace:GetDescendants()) do
+
+                    
+
+            if Instance.Name == "rock" and Instance.CanTouch == true then
+
+                Instance.CanTouch = false
+
+                        
+
+                Instance.CanQuery = false
+
+                        
+
+            end
+
+                    
+
+                    
+
+        end
+
+                
+
+            end
+
+            
+
+        else
+
+        task.wait(.1)  
+
+        
+
+        for _, Instance in pairs(game.Workspace:GetDescendants()) do
+
+                    
+
+            if Instance.Name == "rock" and Instance.CanTouch == false then
+
+                
+
+                task.wait()
+
+                
+
+                Instance.CanTouch = true
+
+                        
+
+                Instance.CanQuery = true
+
+                        
+
+            end
+
+                    
+
+                    
+
+        end
+
+            
+
+        end
+
+                
+
+    
+
+        
+
+    end)
 
 Tab2Section:NewToggle("Anti Void","No Longer Fall On Void",function(noVoid)
 
