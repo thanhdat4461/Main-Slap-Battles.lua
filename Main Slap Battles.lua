@@ -817,6 +817,10 @@ Tab3Section:NewToggle("Slapple AutoFram", "Automatically Collect All Slapple", f
 
     end)
 
+Tab3Section:NewButton("Baller AutoFram","Get 1k Of Slap In Less Minutes",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/Slap-Fram-Baller.lua/main/Slap%20Fram%20Baller.lua"))()
+end)
+
 Tab4Section:NewButton("Auto Get Tycoon","Free Tycoon",function()
 
     repeat task.wait(.005)
