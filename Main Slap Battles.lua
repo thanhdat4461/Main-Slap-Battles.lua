@@ -1,3 +1,7 @@
+print("BkvIl Hub Tooks Second to Make Print")
+print("BkvIl Hub Can't add Universal Slap Farm Form Anakin")
+print("BkvIl Hub Need Learn Lua LMAO")
+
 
         local Gloves = loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/file/main/Glove.lua"))()
 
