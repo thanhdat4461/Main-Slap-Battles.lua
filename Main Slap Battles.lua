@@ -624,7 +624,9 @@ Tab3Section:NewToggle("Slapple AutoFram", "Automatically Collect All Slapple", f
 
     end)
 
-    
+Tab3Section:NewToggle("Universal Slap Farm","Ghost + Error = More Anonying",function(bool)   
+
+
 
 Tab4Section:NewButton("Auto Get Tycoon","Free Tycoon",function()
 
