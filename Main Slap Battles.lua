@@ -235,6 +235,12 @@ end)
 Tab2Section:NewButton("Fly Gui V3","FE FLY GUI V3",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/Fly-Gui-V3.lua/main/Fly%20Gui%20V3.lua"))()
 end)
+
+local Tab2Section = Tab2:NewSection("KeyBoard Script")
+
+Tab2Section:NewButton("KeyBoard (Normal)","Use KeyBoard Like PC",function(bool)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
 		
 local Tab2Section = Tab2:NewSection("Main")
 
@@ -309,6 +315,60 @@ Tab2Section:NewToggle("Auto Invisible (OP)","Someone Can't See You When Invisibl
         end
 
     
+
+    end)
+
+Tab2Section:NewToggle("Auto Remove Name","Automatically Remove Name When Die",function(bool)
+
+        Auto_Remove = bool
+
+        
+
+        if bool == true then
+
+        
+
+        game.Players.LocalPlayer.Character:FindFirstChild("Head").Nametag.TextLabel:Destroy()
+
+            
+
+            task.wait()
+
+            
+
+            game.Players.LocalPlayer.CharacterAdded:Connect(function()
+
+                
+
+                if Auto_Remove == true then
+
+                    
+
+                repeat task.wait()
+
+                    
+
+                until game.Players.LocalPlayer.Character:FindFirstChild("Head")
+
+                
+
+                game.Players.LocalPlayer.Character:FindFirstChild("Head").Nametag.TextLabel:Destroy()
+
+                    
+
+                end
+
+                
+
+            end)
+
+    
+
+        end
+
+        
+
+        
 
     end)
 
@@ -558,7 +618,11 @@ Tab2Section:NewToggle("Anti Reaper","No Longer Dying On Reaper User",function(bo
         
 
     end)
-		
+
+Tab2Section:NewToggle("Anti MegaRock / Custom","No Longer Dying On Megarock or custom",function(bool)
+
+
+
 Tab2Section:NewToggle("Anti Void","No Longer Fall On Void",function(noVoid)
 
         if noVoid == true then
