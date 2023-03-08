@@ -62,15 +62,15 @@ local Tab6 = window:NewTab("Credits")
 
 local Tab6Section = Tab6:NewSection("LocalPlayer Made By BkuIl Hub")
 
-local Tab6Section = Tab6:NewSection("Slap Aura Made By Anakin")
+local Tab6Section = Tab6:NewSection("Slap Aura Made By Anakin#3568")
 
-local Tab6Section = Tab6:NewSection("Auto Get Tycoon Made By Anakin")
+local Tab6Section = Tab6:NewSection("Auto Get Tycoon Made By Anakin#3568")
 
 local Tab6Section = Tab6:NewSection("Auto Get Elude Made By BluB")
 
-local Tab6Section = Tab6:NewSection("Auto Get REDACTED Made By Anakin")
+local Tab6Section = Tab6:NewSection("Auto Get REDACTED Made By Anakin#3568")
 
-local Tab6Section = Tab6:NewSection("Auto Enter Arena Made By Hackedman")
+local Tab6Section = Tab6:NewSection("Auto Enter Arena Made By hackedman#9917")
 
 ---Buttons
 
@@ -372,6 +372,130 @@ Tab2Section:NewToggle("Auto Remove Name","Automatically Remove Name When Die",fu
 
     end)
 
+Tab2Section:NewToggle("Invisible Reverss [FE]","IDK to Type",function(bool)
+
+        Invis_Reverse = bool
+
+        
+
+        if bool == true then
+
+            
+
+        
+
+        
+
+        while Invis_Reverse do
+
+        
+
+            repeat wait(.005) until game.Players.LocalPlayer.Character:FindFirstChild("SelectionBox", 1) and game.Players.LocalPlayer.Character:FindFirstChild("Head"):FindFirstChild("UnoReverseCard")
+
+            game.Players.LocalPlayer.Character.Head["UnoReverseCard"]:Destroy()
+
+            for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+
+    
+
+                if v.Name == "SelectionBox" then
+
+                
+
+                v:Destroy()
+
+        
+
+                end
+
+            
+
+            end
+
+        
+
+        end
+
+        
+
+        end
+
+        
+
+    end)
+
+Tab2Section:NewToggle("Golden Effect [FE]","Automatically Golden Abilites Enable When Die",function(bool)
+
+        autoGod = bool
+
+        
+
+        if bool == true then
+
+            
+
+            game.Players.LocalPlayer.CharacterAdded:Connect(function()
+
+                
+
+                if autoGod == true and 2500 <= game.Players.LocalPlayer.leaderstats.Slaps.Value then
+
+                    
+
+                    task.wait()
+
+                    
+
+                    game.ReplicatedStorage.Ungoldify:FireServer(true)
+
+                    
+
+                    task.wait(.1)
+
+                    
+
+                    
+
+                    local gloveClick = game.Players.LocalPlayer.leaderstats.Glove.Value
+
+                    
+
+                    task.wait(.2)
+
+                    fireclickdetector(game.Workspace.Lobby.Golden.ClickDetector)
+
+                    
+
+                    task.wait(.2)
+
+                    
+
+                    game.ReplicatedStorage.Goldify:FireServer(true)
+
+                    
+
+                    task.wait(.2)
+
+                    
+
+                    fireclickdetector(game.Workspace.Lobby[gloveClick].ClickDetector)
+
+                    
+
+                end
+
+                
+
+            end)
+
+            
+
+        end
+
+    
+
+    end)
+
 Tab2Section:NewToggle("Slap Aura", "Automatically Slap People", function(bool)
 
         getgenv().SlapAura = bool
@@ -509,7 +633,93 @@ Tab2Section:NewToggle("Auto Enter Arena", "Automatically Enter Arean When die", 
     
 
     end)
-		
+
+Tab2Section:NewToggle("Disable Gube Of Death","No Longer Ded On Gube Of Death",function(bool)
+
+        if bool == true then
+
+        
+
+        if game.Workspace:FindFirstChild("the cube of death(i heard it kills)", 1) then
+
+            
+
+        workspace.Arena.CubeOfDeathArea["the cube of death(i heard it kills)"].CanTouch = false
+
+        
+
+        end
+
+        
+
+        else
+
+            
+
+            if game.Workspace:FindFirstChild("the cube of death(i heard it kills)", 1) then
+
+                
+
+                workspace.Arena.CubeOfDeathArea["the cube of death(i heard it kills)"].CanTouch = true
+
+                
+
+            end
+
+        end
+
+    end)
+
+Tab2Section:NewToggle("Disable Death Barries","IDK What I Do Type This",function(bool)
+
+        if bool == true then
+
+        
+
+        if workspace:FindFirstChild("dedBarrier") and workspace:FindFirstChild("DEATHBARRIER") and workspace:FindFirstChild("DEATHBARRIER2") then
+
+    
+
+            workspace.DEATHBARRIER.CanTouch = false
+
+            workspace.DEATHBARRIER2.CanTouch = false
+
+            workspace.dedBarrier.CanTouch = false
+
+        
+
+        else
+
+            
+
+            print("No Death Barriers")
+
+        
+
+        end
+
+        
+
+        else
+
+            
+
+            workspace.DEATHBARRIER.CanTouch = true
+
+            workspace.DEATHBARRIER2.CanTouch = true
+
+            workspace.dedBarrier.CanTouch = true
+
+        
+
+        
+
+        end
+
+        
+
+    end)
+
 local Tab2Section = Tab2:NewSection("Spam Stuff Sound")
 
 Tab2Section:NewButton("Spam Ghost Sound","This Sound Is Anonying",function()
@@ -575,6 +785,360 @@ Tab2Section:NewToggle("Spam Error Sound","Ghost + Error = More Anonying",functio
 
 local Tab2Section = Tab2:NewSection("Anti Stuff")
 
+Tab2Section:NewToggle("Anti Mail","No Longer Seen Mali Screen",function(bool)
+
+        antiMail = bool
+
+        
+
+        if bool == true then
+
+            
+
+            game.Players.LocalPlayer.PlayerGui.DescendantAdded:Connect(function(UI)
+
+                
+
+                if antiMail == true then
+
+                    
+
+                    if UI.Name == "MailPopup" then
+
+                    
+
+                        UI.Frame.Visible = false
+
+                        
+
+                        task.wait()
+
+                        
+
+                        game.Players.LocalPlayer.Character.Head.MailIcon:Destroy()
+
+                    
+
+                    end
+
+                
+
+                end
+
+                
+
+            end)
+
+        else
+
+        if game.Players.LocalPlayer.PlayerGui:FindFirstChild("MailPopup") then
+
+            
+
+            game.Players.LocalPlayer.PlayerGui.MailPopup.Frame.Visible = true
+
+        
+
+            task.wait()
+
+            
+
+            
+
+        end
+
+        
+
+        end
+
+        
+
+    end)
+
+Tab2Section:NewToggle("Anti Squid","No Longer Getting Black Screen",function(bool)
+
+        AntiSquid = bool
+
+        
+
+        
+
+        if bool == true then
+
+            
+
+            while AntiSquid do
+
+                
+
+            task.wait()
+
+            
+
+            for i,v in pairs(game.Players.LocalPlayer.PlayerGui.SquidInk:GetChildren()) do
+
+                
+
+                if v.Parent then
+
+                    
+
+                    v:Destroy()
+
+                    
+
+                end
+
+                
+
+            end
+
+            
+
+            end
+
+        
+
+        end
+
+        
+
+        
+
+    end)
+
+Tab2Section:NewToggle("Anti Stun","No Longer Getting Stun",function(bool)
+
+        antiStun = bool
+
+        
+
+        if bool == true then
+
+            
+
+            while antiStun do
+
+                
+
+            task.wait()
+
+            
+
+            if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") and game.Players.LocalPlayer.Character.Humanoid.PlatformStand == true and  not getgenv().Farming and not getgenv().allFarming and not game.Players.LocalPlayer.Character.Ragdolled.Value == true and game.Workspace:FindFirstChild("Shockwave") then
+
+                
+
+                game.Players.LocalPlayer.Character.Humanoid.PlatformStand = false
+
+                
+
+            end
+
+            
+
+            end
+
+            
+
+        end
+
+        
+
+    end)
+
+Tab2Section:NewToggle("Anti Booster","No Longer Getting Banned Form Booster Bug",function(bool)
+
+        antiBooster = bool
+
+        
+
+        
+
+        if bool == true then
+
+            
+
+            if game.Workspace[game.Players.LocalPlayer.Name]:FindFirstChild("BoosterObject", 1) then
+
+            
+
+                game.Workspace[game.Players.LocalPlayer.Name]:FindFirstChild("BoosterObject", 1):Destroy()
+
+            
+
+            end
+
+        
+
+            task.wait()
+
+            
+
+            game.Workspace[game.Players.LocalPlayer.Name].DescendantAdded:Connect(function(v)
+
+                
+
+                if antiBooster == true then
+
+                    
+
+                    if v.Name == "BoosterObject" then
+
+                        
+
+                        task.wait(.1)
+
+                        v:Destroy()
+
+                        
+
+                    end
+
+                    
+
+                end
+
+                
+
+            end)
+
+            
+
+        end
+
+        
+
+    end)
+
+Tab2Section:NewToggle("Anti Hallow-Jack","No Longer Getting Attack Form Hallow Jack User",function(bool)
+
+        antiHallow = bool
+
+        
+
+        if bool == true then
+
+            
+
+            game.Players.LocalPlayer.PlayerScripts.HallowJackAbilities.Disabled = true
+
+        
+
+        else
+
+        
+
+            game.Players.LocalPlayer.PlayerScripts.HallowJackAbilities.Enabled = true
+
+        
+
+        
+
+        end
+
+        
+
+    end)
+
+Tab2Section:NewToggle("Anti Za Hando","No Longer Dying Form Za Hando User",function(bool)
+
+        getgenv().AntiZaHando = bool
+
+        
+
+        if bool == true then
+
+            
+
+            while getgenv().AntiZaHando do
+
+                
+
+                wait(.001)
+
+                
+
+                for i,v in pairs(game.Workspace:GetChildren()) do
+
+                    
+
+                    if v.ClassName == "Part" and v.Name == "Part" then
+
+                        
+
+                        v:Destroy()
+
+                    
+
+                    end
+
+                    
+
+                end
+
+                
+
+            end
+
+        end
+
+        
+
+    end)
+
+Tab2Section:NewToggle("Anti Pusher","No Longer Fall Form Pusher User",function(bool)
+
+        getgenv().AntiPusher = bool
+
+        
+
+        if bool == true then
+
+            
+
+            while getgenv().AntiPusher do
+
+            
+
+                wait(.001)
+
+            
+
+                for i,v in pairs(game.Workspace:GetChildren()) do
+
+        
+
+                    if v.Name == "wall" then
+
+            
+
+                    v.CanCollide = false
+
+            
+
+        
+
+                    end
+
+        
+
+        
+
+                end
+
+            
+
+            end
+
+            
+
+        end
+
+        
+
+    end)
+
 Tab2Section:NewToggle("Anti Reaper","No Longer Dying On Reaper User",function(bool)
 		
         getgenv().AntiReaper = bool
@@ -618,6 +1182,29 @@ Tab2Section:NewToggle("Anti Reaper","No Longer Dying On Reaper User",function(bo
         
 
     end)
+
+Tab2Section:NewButton("Anti Bubble?","No Longer Getting Bubble IDK what i  do type",function()
+while true do
+
+wait()
+
+for i,v in pairs(workspace:GetChildren()) do
+
+   if v.Name == "BubbleObject" then
+
+     if v:FindFirstChild("Weld") then
+
+      v:FindFirstChild("Weld"):Destroy()
+
+   end
+
+  end
+
+ end
+
+end
+
+end)
 
 Tab2Section:NewToggle("Anti MegaRock / Custom","No Longer Dying On Megarock or custom",function(bool)
 
