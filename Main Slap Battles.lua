@@ -372,7 +372,7 @@ Tab2Section:NewToggle("Auto Remove Name","Automatically Remove Name When Die",fu
 
     end)
 
-Tab2Section:NewToggle("Invisible Reverss [FE]","IDK to Type",function(bool)
+Tab2Section:NewToggle("Invisible Reverse [FE]","IDK to Type",function(bool)
 
         Invis_Reverse = bool
 
