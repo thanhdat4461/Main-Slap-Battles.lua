@@ -74,6 +74,10 @@ local Tab6Section = Tab6:NewSection("Auto Enter Arena Made By hackedman#9917")
 
 local Tab6Section = Tab6:NewSection("Baller AutoFram Made By Anakin#3568")
 
+local Tab6Section = Tab6:NewSection("Auto Get Voodoo Made By Anakin#3568")
+
+local Tab6Section = Tab6:NewSection("Auto Get Fish Made By Anakin#3568/Other")
+
 ---Buttons
 
 ---Toggles
