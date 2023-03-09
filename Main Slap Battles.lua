@@ -1574,3 +1574,23 @@ Tab5Section:NewButton("BkvIl Hub Discord Link","This My Server",function()
 
     end)
 		
+Tab6Section:NewKeybind("Toggle UI", "Toggles This If You Want", Enum.KeyCode.J, function()
+	          if getgenv().ui == true then			                clmain.newAlert("UI Disabled!",
+
+Color3.fromRGB(255, 0, 0))
+
+		                         getgenv().ui = false
+
+	            else
+
+		                         clmain.newAlert("UI Enabled!",
+
+Color3.fromRGB(0, 255, 0))
+
+		                        getgenv().ui = true
+
+			  end
+
+			  Library:ToggleUI()
+
+end)
