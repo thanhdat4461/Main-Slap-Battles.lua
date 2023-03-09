@@ -38,7 +38,7 @@ local window = kavoUi.CreateLib("Slap Battles Main // BkuIl Hub","Ocean")
 
 ---Tabs
 
-local Tab1 = window:NewTab("LocalPlayer")
+local Tab1 = window:NewTab("Player")
 
 local Tab1Section = Tab1:NewSection("Setting")
 
@@ -48,7 +48,7 @@ local Tab2Section = Tab2:NewSection("Admin Command")
 
 local Tab3 = window:NewTab("AutoFram")
 
-local Tab3Section = Tab3:NewSection("Fram Slap")
+local Tab3Section = Tab3:NewSection("Slap Fram")
 
 local Tab4 = window:NewTab("Badges")
 
@@ -60,7 +60,7 @@ local Tab5Section = Tab5:NewSection("Original BkvIl Hub Server")
 
 local Tab6 = window:NewTab("Credits")
 
-local Tab6Section = Tab6:NewSection("LocalPlayer Made By BkuIl Hub")
+local Tab6Section = Tab6:NewSection("Player Made By BkuIl Hub")
 
 local Tab6Section = Tab6:NewSection("Slap Aura Made By Anakin#3568")
 
@@ -908,6 +908,58 @@ Tab2Section:NewToggle("Anti Squid","No Longer Getting Black Screen",function(boo
         
 
     end)
+
+function disable(username, cantouch)
+
+    warn(username)
+
+    if workspace:FindFirstChild("ObbyItem"..username.."LavaBlock") then
+
+       warn("ObbyItem"..username.."LavaBlock")
+
+       workspace:FindFirstChild("ObbyItem"..username.."LavaBlock").CanTouch = cantouch
+
+    elseif workspace:FindFirstChild("ObbyItem"..username.."LavaSpinner") then
+
+    warn("ObbyItem"..username.."LavaSpinner")
+
+    workspace:FindFirstChild("ObbyItem"..username.."LavaSpinner").CanTouch = cantouch
+
+ end
+
+end
+
+Tab2Section:NewToggle("Anti KillBrick","No Longer Dying Form KillBrick Obby user",function(a)
+
+    getgenv().disable = a
+
+     if getgenv().disable == true then
+
+      for i,v in pairs(game.Players:GetChildren()) do
+
+        if v.leaderstats.Glove.Value == "Obby" then
+
+          disable(v.Name, false)
+
+        end
+
+     end
+
+   else
+
+       for i,v in pairs(game.Players:GetChildren()) do
+
+        if v.leaderstats.Glove.Value == "Obby" then
+
+          disable(v.Name, true)
+
+        end
+
+     end
+
+  end
+
+end)
 
 Tab2Section:NewToggle("Anti Stun","No Longer Getting Stun",function(bool)
 
