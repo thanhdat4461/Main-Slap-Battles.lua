@@ -245,7 +245,12 @@ dofullbright()
 
 Light.LightingChanged:Connect(dofullbright)
 end)
-		
+
+Tab1Section:NewButton("Teleport To Main Island","Teleport On Main Island",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -5.5 ,0)
+end)
+
+
 Tab1Section:NewButton("Teleport To Plate","My First Script",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Arena.Plate.CFrame * CFrame.new(0, 2 ,0)
 end)
