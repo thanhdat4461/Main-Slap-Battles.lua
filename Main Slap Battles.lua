@@ -66,11 +66,13 @@ local Tab6Section = Tab6:NewSection("Slap Aura Made By Anakin#3568")
 
 local Tab6Section = Tab6:NewSection("Auto Get Tycoon Made By Anakin#3568")
 
-local Tab6Section = Tab6:NewSection("Auto Get Elude Made By BluB")
+local Tab6Section = Tab6:NewSection("Auto Get Elude Made By BluB#9867")
 
 local Tab6Section = Tab6:NewSection("Auto Get REDACTED Made By Anakin#3568")
 
 local Tab6Section = Tab6:NewSection("Auto Enter Arena Made By hackedman#9917")
+
+local Tab6Section = Tab6:NewSection("Baller AutoFram Made By Anakin#3568")
 
 ---Buttons
 
