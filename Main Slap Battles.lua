@@ -222,7 +222,31 @@ bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end)
 end)
 
-Tab1Section:NewButton("Teleport To Platw","My First Script",function()
+Tab1Section:NewButton("Full Bright", "FE FULLBRIGHT", function()
+local Light = game:GetService("Lighting")
+
+
+
+function dofullbright()
+
+Light.Ambient = Color3.new(1, 1, 1)
+
+Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+
+Light.ColorShift_Top = Color3.new(1, 1, 1)
+
+end
+
+
+
+dofullbright()
+
+
+
+Light.LightingChanged:Connect(dofullbright)
+end)
+		
+Tab1Section:NewButton("Teleport To Plate","My First Script",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Arena.Plate.CFrame * CFrame.new(0, 2 ,0)
 end)
 		
