@@ -34,7 +34,7 @@ print("BkvIl Hub Need Learn Lua LMAO")
 
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local window = kavoUi.CreateLib("Slap Battles Main // BkuIl Hub","Ocean")
+local window = kavoUi.CreateLib("Slap Battles Main","Ocean")
 
 ---Tabs
 
@@ -60,7 +60,7 @@ local Tab5Section = Tab5:NewSection("Original BkvIl Hub Server")
 
 local Tab6 = window:NewTab("Credits")
 
-local Tab6Section = Tab6:NewSection("Player Made By BkuIl Hub")
+local Tab6Section = Tab6:NewSection("Player Made By ThAGqoBSGE#2962")
 
 local Tab6Section = Tab6:NewSection("Slap Aura Made By Anakin#3568")
 
@@ -77,6 +77,10 @@ local Tab6Section = Tab6:NewSection("Baller AutoFram Made By Anakin#3568")
 local Tab6Section = Tab6:NewSection("Auto Get Voodoo Made By Anakin#3568")
 
 local Tab6Section = Tab6:NewSection("Auto Get Fish Made By Anakin#3568/Other")
+
+local Tab6Section = Tab6:NewSection("Teleport To Plate Made By ThAGqoBSGE#2962")
+
+local Tab6Section = Tab6:NewSection("Teleport To Main Island By ThAGqoBSGE#2962")
 
 ---Buttons
 
@@ -247,7 +251,7 @@ Light.LightingChanged:Connect(dofullbright)
 end)
 
 Tab1Section:NewButton("Teleport To Main Island","Teleport On Main Island",function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -5.5 ,0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -6 ,0)
 end)
 
 
