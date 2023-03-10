@@ -297,6 +297,10 @@ Tab1Section:NewButton("Teleport To Lobby","Teleport On Lobby",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-550, 325 , -2)
 end)
 
+Tab1Section:NewButton("Teleport To Tournament","Teleport On Tournament",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3031, 145 , 3)
+end)
+
 Tab2Section:NewButton("Infinite Yield","FE Infinite Yield",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
