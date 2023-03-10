@@ -49,49 +49,45 @@ local Tab4 = window:NewTab("Badges")
 
 local Tab4Section = Tab4:NewSection("Free Glove")
 
-local Tab5 = window:NewTab("Discord Server Link")
+local Tab5 = window:NewTab("Credits")
 
-local Tab5Section = Tab5:NewSection("Original BkvIl Hub Server")
+local Tab5Section = Tab5:NewSection("Player Made By ThAGqoBSGE#2962")
 
-local Tab6 = window:NewTab("Credits")
+local Tab5Section = Tab5:NewSection("Slap Aura Made By Anakin#3568")
 
-local Tab6Section = Tab6:NewSection("Player Made By ThAGqoBSGE#2962")
+local Tab5Section = Tab5:NewSection("Auto Get Tycoon Made By Anakin#3568")
 
-local Tab6Section = Tab6:NewSection("Slap Aura Made By Anakin#3568")
+local Tab5Section = Tab5:NewSection("Auto Get Elude Made By BluB#9867")
 
-local Tab6Section = Tab6:NewSection("Auto Get Tycoon Made By Anakin#3568")
+local Tab5Section = Tab5:NewSection("Auto Get REDACTED Made By Anakin#3568")
 
-local Tab6Section = Tab6:NewSection("Auto Get Elude Made By BluB#9867")
+local Tab5Section = Tab5:NewSection("Auto Enter Arena Made By hackedman#9917")
 
-local Tab6Section = Tab6:NewSection("Auto Get REDACTED Made By Anakin#3568")
+local Tab5Section = Tab5:NewSection("Baller AutoFram Made By Anakin#3568")
 
-local Tab6Section = Tab6:NewSection("Auto Enter Arena Made By hackedman#9917")
+local Tab5Section = Tab5:NewSection("Auto Get Voodoo Made By Anakin#3568")
 
-local Tab6Section = Tab6:NewSection("Baller AutoFram Made By Anakin#3568")
+local Tab5Section = Tab5:NewSection("Auto Get Fish Made By Anakin#3568/Other")
 
-local Tab6Section = Tab6:NewSection("Auto Get Voodoo Made By Anakin#3568")
+local Tab5Section = Tab5:NewSection("Anti Ragdoll By Anakin#3568 (They Finally Add This)")
 
-local Tab6Section = Tab6:NewSection("Auto Get Fish Made By Anakin#3568/Other")
+local Tab5Section = Tab5:NewSection("Teleport To Plate Made By ThAGqoBSGE#2962")
 
-local Tab6Section = Tab6:NewSection("Anti Ragdoll By Anakin#3568 (They Finally Add This)")
+local Tab5Section = Tab5:NewSection("Teleport To Main Island By ThAGqoBSGE#2962")
 
-local Tab6Section = Tab6:NewSection("Teleport To Plate Made By ThAGqoBSGE#2962")
+local Tab5Section = Tab5:NewSection("Teleport To Default Island By ThAGqoBSGE#2962")
 
-local Tab6Section = Tab6:NewSection("Teleport To Main Island By ThAGqoBSGE#2962")
+local Tab5Section = Tab5:NewSection("Teleport To #1 Island By ThAGqoBSGE#2962")
 
-local Tab6Section = Tab6:NewSection("Teleport To Default Island By ThAGqoBSGE#2962")
+local Tab5Section = Tab5:NewSection("Teleport To #2 Island By ThAGqoBSGE#2962")
 
-local Tab6Section = Tab6:NewSection("Teleport To #1 Island By ThAGqoBSGE#2962")
+local Tab5Section = Tab5:NewSection("Teleport To #3 Island By ThAGqoBSGE#2962")
 
-local Tab6Section = Tab6:NewSection("Teleport To #2 Island By ThAGqoBSGE#2962")
+local Tab5Section = Tab5:NewSection("Teleport To Moai Island By ThAGqoBSGE#2962")
 
-local Tab6Section = Tab6:NewSection("Teleport To #3 Island By ThAGqoBSGE#2962")
+local Tab5Section = Tab5:NewSection("Teleport To Slapple Island By ThAGqoBSGE#2962")
 
-local Tab6Section = Tab6:NewSection("Teleport To Moai Island By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To Slapple Island By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To Lobby By ThAGqoBSGE#2962")
+local Tab5Section = Tab5:NewSection("Teleport To Lobby By ThAGqoBSGE#2962")
 
 ---Buttons
 
@@ -1826,24 +1822,8 @@ end)
 Tab4Section:NewButton("Auto Get Voodoo","Free Voodoo",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/auto-get-voodoo.lua/main/auto%20get%20voodoo.lua"))()
 end)
-
-Tab5Section:NewButton("BkvIl Hub Discord Link","This My Server",function()
 		
-        if setclipboard then
-
-            
-
-            setclipboard("https://discord.gg/KMkc2vSf")
-
-            
-
-        end
-
-        
-
-    end)
-		
-Tab6Section:NewKeybind("Toggle UI", "Toggles This If You Want", Enum.KeyCode.J, function()
+Tab5Section:NewKeybind("Toggle UI", "Toggles This If You Want", Enum.KeyCode.J, function()
 	          if getgenv().ui == true then			                clmain.newAlert("UI Disabled!",
 
 Color3.fromRGB(255, 0, 0))
