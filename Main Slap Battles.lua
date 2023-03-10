@@ -79,6 +79,8 @@ local Tab6Section = Tab6:NewSection("Teleport To Plate Made By ThAGqoBSGE#2962")
 
 local Tab6Section = Tab6:NewSection("Teleport To Main Island By ThAGqoBSGE#2962")
 
+local Tab6Section = Tab6:NewSection("Teleport To Default Island By ThAGqoBSGE#2962")
+
 local Tab6Section = Tab6:NewSection("Teleport To #1 Island By ThAGqoBSGE#2962")
 
 local Tab6Section = Tab6:NewSection("Teleport To #2 Island By ThAGqoBSGE#2962")
@@ -261,6 +263,10 @@ end)
 
 Tab1Section:NewButton("Teleport To Main Island","Teleport On Main Island",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -6 ,0)
+end)
+
+Tab1Section:NewButton("Teleport To Default Island","Teleport On Default Island",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(121, 360 , -2)
 end)
 
 Tab1Section:NewButton("Teleport To #1 Island","Teleport On Other Island",function()
