@@ -1,5 +1,5 @@
 
-        local Gloves = loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/file/main/Glove.lua"))()
+    local Gloves = loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R20-EXPLOITER/main/Files/Gloves.lua"))()
 
 	local function getGlove()	    
 
@@ -22,7 +22,6 @@
     
 
     local toHit = Hittables[Hit]
-
 
 	local pathfindingService = game:GetService("PathfindingService")
 
