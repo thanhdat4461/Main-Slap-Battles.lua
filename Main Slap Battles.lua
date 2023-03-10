@@ -285,7 +285,11 @@ end)
 Tab1Section:NewButton("Teleport To Plate","My First Script",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Arena.Plate.CFrame * CFrame.new(0, 2 ,0)
 end)
-		
+
+Tab1Section:NewButton("Teleport To Lobby","Teleport On Lobby",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-550, 325 , -2)
+end)
+
 Tab2Section:NewButton("Infinite Yield","FE Infinite Yield",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
