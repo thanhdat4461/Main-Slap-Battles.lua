@@ -29,7 +29,7 @@
 
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local window = kavoUi.CreateLib("Slap Battles Main","Ocean")
+local window = kavoUi.CreateLib("Main Slap Battles","Ocean")
 
 ---Tabs
 
