@@ -807,7 +807,7 @@ Tab2Section:NewToggle("Disable Death Barriers","IDK What I Do Type This",functio
 
 local Tab2Section = Tab2:NewSection("Spam Stuff Sound")
 
-Tab2Section:NewButton("Spam Ghost Sound","This Sound Is Anonying",function()
+Tab2Section:NewButton("Spam Ghost Ability","This Sound Is Anonying",function()
  for x = 1,5 do
 
 for x = 1,math.huge do
@@ -838,7 +838,7 @@ for x = 1,math.huge do
 
 end)    
 
-Tab2Section:NewToggle("Spam Error Sound","Ghost + Error = More Anonying",function(bool)
+Tab2Section:NewToggle("Spam Error Ability","Ghost + Error = More Anonying",function(bool)
 
         errorSpam = bool
 
@@ -868,7 +868,7 @@ Tab2Section:NewToggle("Spam Error Sound","Ghost + Error = More Anonying",functio
 
     end)
 
-Tab2Section:NewToggle("Spam Thanos Sound","Another Script Spam Yea",function(bool)
+Tab2Section:NewToggle("Spam Thanos Ability","Another Script Spam Yea",function(bool)
 
         autoThanos = bool
 
@@ -908,7 +908,7 @@ Tab2Section:NewToggle("Spam Thanos Sound","Another Script Spam Yea",function(boo
 
     end)
 
-Tab2Section:NewToggle("Spam Sleep Sound","Another Spam Sound Also",function(bool)
+Tab2Section:NewToggle("Spam Sleep Ability","Another Spam Sound Also",function(bool)
 
         spamSleep = bool
 
@@ -953,6 +953,32 @@ Tab2Section:NewToggle("Spam Sleep Sound","Another Spam Sound Also",function(bool
         
 
     end)
+
+Tab2Section:NewButton("Spam Poing Ability","Poing Is anonying",function()
+while true and task.wait() do
+
+    
+
+    game.ReplicatedStorage.GeneralAbility:FireServer()
+
+    
+
+end
+end)
+
+Tab2Section:NewButton("Spam Berserk Ability","Spam Berserk + Poing",function()
+local ohInstance1 = game.Players.LocalPlayer.Character:WaitForChild("Berserk")
+
+for x = 1,10 do
+
+    
+
+    task.wait()
+
+    game:GetService("ReplicatedStorage").BerserkCharge:FireServer(ohInstance1)
+
+end
+end)
 
 local Tab2Section = Tab2:NewSection("Anti Stuff")
 
