@@ -1,7 +1,3 @@
-print("BkvIl Hub Tooks Second to Make Print")
-print("BkvIl Hub Can't add Universal Slap Farm Form Anakin")
-print("BkvIl Hub Need Learn Lua LMAO")
-
 
         local Gloves = loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/file/main/Glove.lua"))()
 
@@ -81,6 +77,10 @@ local Tab6Section = Tab6:NewSection("Auto Get Fish Made By Anakin#3568/Other")
 local Tab6Section = Tab6:NewSection("Teleport To Plate Made By ThAGqoBSGE#2962")
 
 local Tab6Section = Tab6:NewSection("Teleport To Main Island By ThAGqoBSGE#2962")
+
+local Tab6Section = Tab6:NewSection("Teleport To #1 Island By ThAGqoBSGE#2962")
+
+local Tab6Section = Tab6:NewSection("Teleport To Moai Island By ThAGqoBSGE#2962")
 
 ---Buttons
 
@@ -254,6 +254,13 @@ Tab1Section:NewButton("Teleport To Main Island","Teleport On Main Island",functi
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -6 ,0)
 end)
 
+Tab1Section:NewButton("Teleport To #1 Island","Teleport On Other Island",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -6 , 210) 
+end)
+
+Tab1Section:NewButton("Teleport To Moai Island","Teleport On Moai Island",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(216, -16 , 1)
+end)
 
 Tab1Section:NewButton("Teleport To Plate","My First Script",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Arena.Plate.CFrame * CFrame.new(0, 2 ,0)
