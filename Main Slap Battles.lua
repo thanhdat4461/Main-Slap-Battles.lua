@@ -258,6 +258,10 @@ Tab1Section:NewButton("Teleport To #1 Island","Teleport On Other Island",functio
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -6 , 210) 
 end)
 
+Tab1Section:NewButton("Teleport To #2 Island","Teleport On Other Island Again",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5, -6 , -210) 
+end)
+
 Tab1Section:NewButton("Teleport To Moai Island","Teleport On Moai Island",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(216, -16 , 1)
 end)
