@@ -74,7 +74,7 @@ local Tab6Section = Tab6:NewSection("Auto Get Voodoo Made By Anakin#3568")
 
 local Tab6Section = Tab6:NewSection("Auto Get Fish Made By Anakin#3568/Other")
 
-local Tab6Section = Tab6:NewSection("Anti Ragdoll By Anakin#3568 (They Finally Add Anti Ragdoll)")
+local Tab6Section = Tab6:NewSection("Anti Ragdoll By Anakin#3568 (They Finally Add This)")
 
 local Tab6Section = Tab6:NewSection("Teleport To Plate Made By ThAGqoBSGE#2962")
 
@@ -746,7 +746,7 @@ Tab2Section:NewToggle("Disable Gube Of Death","No Longer Ded On Gube Of Death",f
 
     end)
 
-Tab2Section:NewToggle("Disable Death Barries","IDK What I Do Type This",function(bool)
+Tab2Section:NewToggle("Disable Death Barriers","IDK What I Do Type This",function(bool)
 
         if bool == true then
 
