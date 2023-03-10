@@ -74,11 +74,17 @@ local Tab6Section = Tab6:NewSection("Auto Get Voodoo Made By Anakin#3568")
 
 local Tab6Section = Tab6:NewSection("Auto Get Fish Made By Anakin#3568/Other")
 
+local Tab6Section = Tab6:NewSection("Anti Ragdoll By Anakin#3568 (They Finally Add Anti Ragdoll)")
+
 local Tab6Section = Tab6:NewSection("Teleport To Plate Made By ThAGqoBSGE#2962")
 
 local Tab6Section = Tab6:NewSection("Teleport To Main Island By ThAGqoBSGE#2962")
 
 local Tab6Section = Tab6:NewSection("Teleport To #1 Island By ThAGqoBSGE#2962")
+
+local Tab6Section = Tab6:NewSection("Teleport To #2 Island By ThAGqoBSGE#2962")
+
+local Tab6Section = Tab6:NewSection("Teleport To #3 Island By ThAGqoBSGE#2962")
 
 local Tab6Section = Tab6:NewSection("Teleport To Moai Island By ThAGqoBSGE#2962")
 
@@ -841,7 +847,171 @@ Tab2Section:NewToggle("Spam Error Sound","Ghost + Error = More Anonying",functio
 
     end)
 
+Tab2Section:NewToggle("Spam Thanos Sound","Another Script Spam Yea",function(bool)
+
+        autoThanos = bool
+
+        
+
+        if bool == true then
+
+            
+
+            while autoThanos do
+
+                
+
+                task.wait()
+
+                if getGlove() == "Thanos" then
+
+    
+
+                    task.wait()
+
+                    
+
+                    game.ReplicatedStorage.Illbeback:FireServer()
+
+                
+
+                end
+
+            end
+
+    
+
+        end
+
+        
+
+    end)
+
+Tab2Section:NewToggle("Spam Sleep Sound","Another Spam Sound Also",function(bool)
+
+        spamSleep = bool
+
+        
+
+        if bool == true then
+
+            
+
+            while spamSleep do
+
+                
+
+                task.wait()
+
+                
+
+                if getGlove() == "ZZZZZZZ" then
+
+                    
+
+                    task.wait(.1)
+
+                    
+
+                    game:GetService("ReplicatedStorage").ZZZZZZZSleep:FireServer()
+
+                    
+
+                end
+
+                
+
+                
+
+            end
+
+            
+
+        end
+
+        
+
+    end)
+
 local Tab2Section = Tab2:NewSection("Anti Stuff")
+
+Tab2Section:NewToggle("Anti Ragdoll","No Longer Getting Ragdoll By Slap",function(bool)
+
+        antiRagdoll = bool
+
+        
+
+        if bool == true then
+
+        
+
+    
+
+        while antiRagdoll do
+
+    
+
+        task.wait()
+
+        
+
+        if not spamSleep  and not allFarming and not Farming  then
+
+            
+
+            
+
+        task.wait()
+
+        
+
+        local Character = game.Workspace:WaitForChild(game.Players.LocalPlayer.Name)
+
+    
+
+        Character:WaitForChild("Ragdolled").Changed:Connect(function()
+
+        
+
+            if antiRagdoll == true  and Character:WaitForChild("Ragdolled").Value == true then
+
+            
+
+            repeat task.wait()
+
+                
+
+            Character:FindFirstChild("Torso").Anchored = true
+
+                
+
+            until Character:FindFirstChild("Torso") == nil or Character:WaitForChild("Ragdolled").Value == false
+
+            
+
+            Character:FindFirstChild("Torso").Anchored = false
+
+            end
+
+        
+
+        end)
+
+     
+
+    
+
+end
+
+            
+
+        end
+
+        end
+
+    
+
+    end)
 
 Tab2Section:NewToggle("Anti Mail","No Longer Seen Mali Screen",function(bool)
 
