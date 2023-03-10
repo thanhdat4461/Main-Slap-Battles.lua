@@ -89,6 +89,8 @@ local Tab5Section = Tab5:NewSection("Teleport To Slapple Island By ThAGqoBSGE#29
 
 local Tab5Section = Tab5:NewSection("Teleport To Lobby By ThAGqoBSGE#2962")
 
+local Tab5Section = Tab5:NewSection("Teleport To Tournament By ThAGqoBSGE#2962")
+
 ---Buttons
 
 ---Toggles
