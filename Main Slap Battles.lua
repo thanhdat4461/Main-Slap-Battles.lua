@@ -90,6 +90,8 @@ local Tab6Section = Tab6:NewSection("Teleport To Moai Island By ThAGqoBSGE#2962"
 
 local Tab6Section = Tab6:NewSection("Teleport To Slapple Island By ThAGqoBSGE#2962")
 
+local Tab6Section = Tab6:NewSection("Teleport To Lobby By ThAGqoBSGE#2962")
+
 ---Buttons
 
 ---Toggles
