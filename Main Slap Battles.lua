@@ -88,6 +88,8 @@ local Tab6Section = Tab6:NewSection("Teleport To #3 Island By ThAGqoBSGE#2962")
 
 local Tab6Section = Tab6:NewSection("Teleport To Moai Island By ThAGqoBSGE#2962")
 
+local Tab6Section = Tab6:NewSection("Teleport To Slapple Island By ThAGqoBSGE#2962")
+
 ---Buttons
 
 ---Toggles
@@ -274,6 +276,10 @@ end)
 
 Tab1Section:NewButton("Teleport To Moai Island","Teleport On Moai Island",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(216, -16 , 1)
+end)
+
+Tab1Section:NewButton("Teleport To Slapple Island","Teleport On Slapple Island",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-395, 50 , -15)
 end)
 
 Tab1Section:NewButton("Teleport To Plate","My First Script",function()
