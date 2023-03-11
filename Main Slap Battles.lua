@@ -292,7 +292,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Arena.Pla
 end)
 
 Tab1Section:NewButton("Teleport To Lobby","Teleport On Lobby",function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-550, 327 , -2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-550, 328 , -2)
 end)
 
 Tab1Section:NewButton("Teleport To Tournament","Teleport On Tournament",function()
