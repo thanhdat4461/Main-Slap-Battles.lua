@@ -51,7 +51,7 @@ local Tab4Section = Tab4:NewSection("Free Glove")
 
 local Tab5 = window:NewTab("Equip All Glove")
 
-local Tab5Section = Tab5:NewSection("Any Glove")
+local Tab5Section = Tab5:NewSection("Normal Glove")
 
 local Tab6 = window:NewTab("Credits")
 
@@ -1847,60 +1847,3 @@ end)
 Tab5Section:NewButton("Equip Default", "Automatically Equip Default When Click", function()
 fireclickdetector(game.Workspace.Lobby.Default.ClickDetector)
 end)
-
-Tab5Section:NewButton("Equip Diamond", "Automatically Equip Diamond When Click", function()
-fireclickdetector(game.Workspace.Lobby.Diamond.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip ZZZZZZZ", "Automatically Equip ZZZZZZZ When Click", function()
-fireclickdetector(game.Workspace.Lobby.ZZZZZZZ.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip Extended", "Automatically Equip Extended When Click", function()
-fireclickdetector(game.Workspace.Lobby.Extended.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip Brick", "Automatically Equip Brick When Click", function()
-fireclickdetector(game.Workspace.Lobby.Brick.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip Snow", "Automatically Equip Snow When Click", function()
-fireclickdetector(game.Workspace.Lobby.Snow.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip Pull", "Automatically Equip Pull When Click", function()
-fireclickdetector(game.Workspace.Lobby.Pull.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip Flash", "Automatically Equip Flash When Click", function()
-fireclickdetector(game.Workspace.Lobby.Flash.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip Spring", "Automatically Equip Spring When Click", function()
-fireclickdetector(game.Workspace.Lobby.Spring.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip Swapper", "Automatically Equip Swapper When Click", function()
-fireclickdetector(game.Workspace.Lobby.Swapper.ClickDetector)
-end)
-
-Tab6Section:NewKeybind("Toggle UI", "Toggles This If You Want", Enum.KeyCode.J, function()
-	          if getgenv().ui == true then			                clmain.newAlert("UI Disabled!",
-
-Color3.fromRGB(255, 0, 0))
-
-		                         getgenv().ui = false
-
-	            else
-
-		                         clmain.newAlert("UI Enabled!",
-
-Color3.fromRGB(0, 255, 0))
-
-		                        getgenv().ui = true
-
-			  end
-
-			  Library:ToggleUI()
-
-end) 
