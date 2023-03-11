@@ -1869,18 +1869,58 @@ Tab5Section:NewButton("Equip Snow", "Automatically Equip Snow When Click", funct
 fireclickdetector(game.Workspace.Lobby.Snow.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Pull", "Automatically Equip Pull", function()
+Tab5Section:NewButton("Equip Pull", "Automatically Equip Pull When Click", function()
 fireclickdetector(game.Workspace.Lobby.Pull.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Flash", "Automatically Equip Flash", function()
+Tab5Section:NewButton("Equip Flash", "Automatically Equip Flash When Click", function()
 fireclickdetector(game.Workspace.Lobby.Flash.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Spring", "Automatically Equip Spring", function()
+Tab5Section:NewButton("Equip Spring", "Automatically Equip Spring When Click", function()
 fireclickdetector(game.Workspace.Lobby.Spring.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Swapper", "Automatically Equip Swapper", function()
+Tab5Section:NewButton("Equip Swapper", "Automatically Equip Swapper When", function()
 fireclickdetector(game.Workspace.Lobby.Swapper.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Bull", "Automatically Equip Bull When Click", function()
+fireclickdetector(game.Workspace.Lobby.Bull.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Dice", "Automatically Equip Dice When Click", function()
+fireclickdetector(game.Workspace.Lobby.Dice.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Ghost", "Automatically Equip Ghost When Click", function()
+fireclickdetector(game.Workspace.Lobby.Ghost.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Thanos", "Automatically Equip Thanos When Click", function()
+fireclickdetector(game.Workspace.Lobby.Thanos.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Stun", "Automatically Equip Stun When Click", function()
+fireclickdetector(game.Workspace.Lobby.Stun.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Za Hando", "Automatically Equip Za Hando When Click", function()
+fireclickdetector(game.Workspace.Lobby.Za Hando.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Fort", "Automatically Equip Fort When Click", function()
+fireclickdetector(game.Workspace.Lobby.Fort.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Magnet", "Automatically Equip Magnet When Click", function()
+fireclickdetector(game.Workspace.Lobby.Magnet.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Pusher", "Automatically Equip Pusher When Click", function()
+fireclickdetector(game.Workspace.Lobby.Pusher.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Anchor", "Automatically Equip Anchor When Click", function()
+fireclickdetector(game.Workspace.Lobby.Anchor.ClickDetector)
 end)
