@@ -49,47 +49,49 @@ local Tab4 = window:NewTab("Badges")
 
 local Tab4Section = Tab4:NewSection("Free Glove")
 
-local Tab5 = window:NewTab("Credits")
+local Tab5 = window:NewTab("Equip All Glove")
 
-local Tab5Section = Tab5:NewSection("Player Made By ThAGqoBSGE#2962")
+local Tab6 = window:NewTab("Credits")
 
-local Tab5Section = Tab5:NewSection("Slap Aura Made By Anakin#3568")
+local Tab6Section = Tab6:NewSection("Player Made By ThAGqoBSGE#2962")
 
-local Tab5Section = Tab5:NewSection("Auto Get Tycoon Made By Anakin#3568")
+local Tab6Section = Tab6:NewSection("Slap Aura Made By Anakin#3568")
 
-local Tab5Section = Tab5:NewSection("Auto Get Elude Made By BluB#9867")
+local Tab6Section = Tab6:NewSection("Auto Get Tycoon Made By Anakin#3568")
 
-local Tab5Section = Tab5:NewSection("Auto Get REDACTED Made By Anakin#3568")
+local Tab6Section = Tab6:NewSection("Auto Get Elude Made By BluB#9867")
 
-local Tab5Section = Tab5:NewSection("Auto Enter Arena Made By hackedman#9917")
+local Tab6Section = Tab6:NewSection("Auto Get REDACTED Made By Anakin#3568")
 
-local Tab5Section = Tab5:NewSection("Baller AutoFram Made By Anakin#3568")
+local Tab6Section = Tab6:NewSection("Auto Enter Arena Made By hackedman#9917")
 
-local Tab5Section = Tab5:NewSection("Auto Get Voodoo Made By Anakin#3568")
+local Tab6Section = Tab6:NewSection("Baller AutoFram Made By Anakin#3568")
 
-local Tab5Section = Tab5:NewSection("Auto Get Fish Made By Anakin#3568/Other")
+local Tab6Section = Tab6:NewSection("Auto Get Voodoo Made By Anakin#3568")
 
-local Tab5Section = Tab5:NewSection("Anti Ragdoll By Anakin#3568 (They Finally Add This)")
+local Tab6Section = Tab6:NewSection("Auto Get Fish Made By Anakin#3568/Other")
 
-local Tab5Section = Tab5:NewSection("Teleport To Plate Made By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Anti Ragdoll By Anakin#3568 (They Finally Add This)")
 
-local Tab5Section = Tab5:NewSection("Teleport To Main Island By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Teleport To Plate Made By ThAGqoBSGE#2962")
 
-local Tab5Section = Tab5:NewSection("Teleport To Default Island By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Teleport To Main Island By ThAGqoBSGE#2962")
 
-local Tab5Section = Tab5:NewSection("Teleport To #1 Island By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Teleport To Default Island By ThAGqoBSGE#2962")
 
-local Tab5Section = Tab5:NewSection("Teleport To #2 Island By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Teleport To #1 Island By ThAGqoBSGE#2962")
 
-local Tab5Section = Tab5:NewSection("Teleport To #3 Island By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Teleport To #2 Island By ThAGqoBSGE#2962")
 
-local Tab5Section = Tab5:NewSection("Teleport To Moai Island By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Teleport To #3 Island By ThAGqoBSGE#2962")
 
-local Tab5Section = Tab5:NewSection("Teleport To Slapple Island By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Teleport To Moai Island By ThAGqoBSGE#2962")
 
-local Tab5Section = Tab5:NewSection("Teleport To Lobby By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Teleport To Slapple Island By ThAGqoBSGE#2962")
 
-local Tab5Section = Tab5:NewSection("Teleport To Tournament By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Teleport To Lobby By ThAGqoBSGE#2962")
+
+local Tab6Section = Tab6:NewSection("Teleport To Tournament By ThAGqoBSGE#2962")
 
 ---Buttons
 
@@ -1832,15 +1834,55 @@ Tab4Section:NewButton("Duck Badges","Free Duck Badge",function()
 fireclickdetector(game:GetService("Workspace")["Arena"]["default island"]["Rubber Ducky"].ClickDetector);
 end)
 
-Tab4Section:NewButton("Court Evidence Badge","Free Court Evidence Badge",function()
+Tab4Section:NewButton("Court Evidence Badges","Free Court Evidence Badge",function()
 fireclickdetector(game:GetService("Workspace")["Lobby"]["Scene"]["knofe"].ClickDetector);
 end)
 
-Tab4Section:NewButton("Brazil Badge","Free Brazil Badge",function()
+Tab4Section:NewButton("Brazil Badges","Free Brazil Badge",function()
 firetouchinterest(game:GetService("Workspace")["Lobby"]["brazil"]["portal"]);
 end)
-		
-Tab5Section:NewKeybind("Toggle UI", "Toggles This If You Want", Enum.KeyCode.J, function()
+
+Tab5Section:NewButton("Equip Default", "Automatically Equip Default When Click", function()
+fireclickdetector(game.Workspace.Lobby.Default.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Diamond", "Automatically Equip Diamond When Click", function()
+fireclickdetector(game.Workspace.Lobby.Diamond.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip ZZZZZZZ", "Automatically Equip ZZZZZZZ When Click", function()
+fireclickdetector(game.Workspace.Lobby.ZZZZZZZ.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Extended", "Automatically Equip Extended When Click", function()
+fireclickdetector(game.Workspace.Lobby.Extended.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Brick", "Automatically Equip Brick When Click", function()
+fireclickdetector(game.Workspace.Lobby.Brick.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Snow", "Automatically Equip Snow When Click", function()
+fireclickdetector(game.Workspace.Lobby.Snow.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Pull", "Automatically Equip Pull When Click", function()
+fireclickdetector(game.Workspace.Lobby.Pull.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Flash", "Automatically Equip Flash When Click", function()
+fireclickdetector(game.Workspace.Lobby.Flash.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Spring", "Automatically Equip Spring When Click", function()
+fireclickdetector(game.Workspace.Lobby.Spring.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Swapper", "Automatically Equip Swapper When Click", function()
+fireclickdetector(game.Workspace.Lobby.Swapper.ClickDetector)
+end)
+
+Tab6Section:NewKeybind("Toggle UI", "Toggles This If You Want", Enum.KeyCode.J, function()
 	          if getgenv().ui == true then			                clmain.newAlert("UI Disabled!",
 
 Color3.fromRGB(255, 0, 0))
