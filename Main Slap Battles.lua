@@ -91,6 +91,8 @@ local Tab5Section = Tab5:NewSection("Teleport To Lobby By ThAGqoBSGE#2962")
 
 local Tab5Section = Tab5:NewSection("Teleport To Tournament By ThAGqoBSGE#2962")
 
+_G.AntiTimestop = false;
+
 ---Buttons
 
 ---Toggles
@@ -1273,48 +1275,9 @@ Tab2Section:NewToggle("Anti Stun","No Longer Getting Stun",function(bool)
     end)
 
 Tab2Section:NewToggle("Anti TimeStop", "No Longer Dying Form GodHand User", function(bool)
+    _G.AntiTimestop = bool;
 
-        antiTime = bool
-
-        
-
-        if bool == true then
-
-            
-
-            if LocalPlayer.Character ~= nil and LocalPlayer.Character:FindFirstChildOfClass("Humanoid") ~= nil and LocalPlayer.Character:WaitForChild("Humanoid").Health > 0 and LocalPlayer.Character:WaitForChild("Torso").Transparency == 0 then
-
-                if game:GetService("Workspace"):FindFirstChild("universaltimestop") ~= nil then
-
-                    LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand = false;
-
-                    LocalPlayer.Character:FindFirstChild("TSVulnerability").Value = false;
-
-                    for _,v in pairs(LocalPlayer.Character:GetChildren()) do
-
-                        if v:IsA("MeshPart") or v:IsA("Part") then
-
-                            v.Anchored = false;
-
-                        end
-
-                    end
-
-                else
-
-                    if not game:GetService("Workspace"):FindFirstChild("universaltimestop") then
-
-                    LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand = false;
-
-                    LocalPlayer.Character:FindFirstChild("TSVulnerability").Value = true;
-
-                end
-
-            end
-
-        end
-
-    end)
+end)
 
 Tab2Section:NewToggle("Anti Booster","No Longer Getting Banned Form Booster Bug",function(bool)
 
@@ -1889,3 +1852,38 @@ Color3.fromRGB(0, 255, 0))
 			  Library:ToggleUI()
 
 end)
+
+
+        if _G.AntiTimestop then
+
+            if LocalPlayer.Character ~= nil and LocalPlayer.Character:FindFirstChildOfClass("Humanoid") ~= nil and LocalPlayer.Character:WaitForChild("Humanoid").Health > 0 and LocalPlayer.Character:WaitForChild("Torso").Transparency == 0 then
+
+                if game:GetService("Workspace"):FindFirstChild("universaltimestop") ~= nil then
+
+                    LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand = false;
+
+                    LocalPlayer.Character:FindFirstChild("TSVulnerability").Value = false;
+
+                    for _,v in pairs(LocalPlayer.Character:GetChildren()) do
+
+                        if v:IsA("MeshPart") or v:IsA("Part") then
+
+                            v.Anchored = false;
+
+                        end
+
+                    end
+
+                elseif not game:GetService("Workspace"):FindFirstChild("universaltimestop") then
+
+                    LocalPlayer.Character:FindFirstChildOfClass("Humanoid").PlatformStand = false;
+
+                    LocalPlayer.Character:FindFirstChild("TSVulnerability").Value = true;
+
+                end
+
+            end
+
+        end
+
+    end)
