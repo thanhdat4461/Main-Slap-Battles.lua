@@ -1825,6 +1825,20 @@ end)
 Tab4Section:NewButton("Auto Get Voodoo","Free Voodoo",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thanhdat4461/auto-get-voodoo.lua/main/auto%20get%20voodoo.lua"))()
 end)
+
+local Tab4Section = Tab4:NewSection("Free Any Badge")
+
+Tab4Section:NewButton("Duck Badges","Free Duck Badge",function()
+fireclickdetector(game:GetService("Workspace")["Arena"]["default island"]["Rubber Ducky"].ClickDetector);
+end)
+
+Tab4Section:NewButton("Court Evidence Badge","Free Court Evidence Badge",function()
+fireclickdetector(game:GetService("Workspace")["Lobby"]["Scene"]["knofe"].ClickDetector);
+end)
+
+Tab4Section:NewButton("Brazil Badge","Free Brazil Badge",function()
+firetouchinterest(game:GetService("Workspace")["Lobby"]["brazil"]["portal"]);
+end)
 		
 Tab5Section:NewKeybind("Toggle UI", "Toggles This If You Want", Enum.KeyCode.J, function()
 	          if getgenv().ui == true then			                clmain.newAlert("UI Disabled!",
