@@ -1905,9 +1905,7 @@ Tab5Section:NewButton("Equip Stun", "Automatically Equip Stun When Click", funct
 fireclickdetector(game.Workspace.Lobby.Stun.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Za Hando", "Automatically Equip Za Hando When Click", function()
-fireclickdetector(game.Workspace.Lobby.ZaHando.ClickDetector)
-end)
+local Tab5Section = Tab5:NewSection("Za Hando Not Work")
 
 Tab5Section:NewButton("Equip Fort", "Automatically Equip Fort When Click", function()
 fireclickdetector(game.Workspace.Lobby.Fort.ClickDetector)
