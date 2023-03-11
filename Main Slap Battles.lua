@@ -51,6 +51,8 @@ local Tab4Section = Tab4:NewSection("Free Glove")
 
 local Tab5 = window:NewTab("Equip All Glove")
 
+local Tab5Section = Tab5:NewSection("Any Glove")
+
 local Tab6 = window:NewTab("Credits")
 
 local Tab6Section = Tab6:NewSection("Player Made By ThAGqoBSGE#2962")
