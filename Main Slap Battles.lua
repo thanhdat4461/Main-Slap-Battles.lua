@@ -1847,3 +1847,40 @@ end)
 Tab5Section:NewButton("Equip Default", "Automatically Equip Default When Click", function()
 fireclickdetector(game.Workspace.Lobby.Default.ClickDetector)
 end)
+
+
+Tab5Section:NewButton("Equip Diamond", "Automatically Equip Diamond When Click", function()
+fireclickdetector(game.Workspace.Lobby.Diamond.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip ZZZZZZZ", "Automatically Equip ZZZZZZZ When Click", function()
+fireclickdetector(game.Workspace.Lobby.ZZZZZZZ.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Extended", "Automatically Equip Extended When Click", function()
+fireclickdetector(game.Workspace.Lobby.Extended.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Brick", "Automatically Equip Brick When Click", function()
+fireclickdetector(game.Workspace.Lobby.Brick.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Snow", "Automatically Equip Snow When Click", function()
+fireclickdetector(game.Workspace.Lobby.Snow.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Pull", "Automatically Equip Pull", function()
+fireclickdetector(game.Workspace.Lobby.Pull.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Flash", "Automatically Equip Flash", function()
+fireclickdetector(game.Workspace.Lobby.Flash.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Spring", "Automatically Equip Spring", function()
+fireclickdetector(game.Workspace.Lobby.Spring.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Swapper", "Automatically Equip Swapper", function()
+fireclickdetector(game.Workspace.Lobby.Swapper.ClickDetector)
+end)
