@@ -1966,3 +1966,43 @@ end)
 Tab5Section:NewButton("Equip Defense", "Automatically Equip Defense When Click", function()
 fireclickdetector(game.Workspace.Lobby.Defense.ClickDetector)
 end)
+
+Tab5Section:NewButton("Equip KS/Killstreak", "Automatically Equip KS When Click", function()
+fireclickdetector(game.Workspace.Lobby.Killstreak.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Reverse", "Automatically Equip Reverse When Click", function()
+fireclickdetector(game.Workspace.Lobby.Reverse.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Shukuchi", "Automatically Equip Shukuchi When Click", function()
+fireclickdetector(game.Workspace.Lobby.Shukuchi.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Duelist", "Automatically Equip Duelist When Click", function()
+fireclickdetector(game.Workspace.Lobby.Duelist.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip woah", "Automatically Equip woah When Click", function()
+fireclickdetector(game.Workspace.Lobby.woah.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Ice", "Automatically Equip Ice When Click", function()
+fireclickdetector(game.Workspace.Lobby.Ice.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Gummy", "Automatically Equip Gummy When Click", function()
+fireclickdetector(game.Workspace.Lobby.Gummy.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Adios", "Automatically Equip Adios When Click", function()
+fireclickdetector(game.Workspace.Lobby.Adios.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Blocked", "Automatically Equip Blocked When Click", function()
+fireclickdetector(game.Workspace.Lobby.Blocked.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Engineer", "Automatically Equip Engineer When Click", function()
+fireclickdetector(game.Workspace.Lobby.Engineer.ClickDetector)
+end)
