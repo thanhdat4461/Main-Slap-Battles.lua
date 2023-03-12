@@ -95,6 +95,8 @@ local Tab6Section = Tab6:NewSection("Teleport To Lobby By ThAGqoBSGE#2962")
 
 local Tab6Section = Tab6:NewSection("Teleport To Tournament By ThAGqoBSGE#2962")
 
+local Tab6Section = Tab6:NewSection("Equip All Glove By ThAGqoBSGE#2962")
+
 ---Buttons
 
 ---Toggles
@@ -1921,4 +1923,46 @@ end)
 
 Tab5Section:NewButton("Equip Anchor", "Automatically Equip Anchor When Click", function()
 fireclickdetector(game.Workspace.Lobby.Anchor.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Space", "Automatically Equip Space When Click", function()
+fireclickdetector(game.Workspace.Lobby.Space.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Boomerang", "Automatically Equip Boomerang When Click", function()
+fireclickdetector(game.Workspace.Lobby.Boomerang.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Dream", "Automatically Equip Dream When Click", function()
+fireclickdetector(game.Workspace.Lobby.Dream.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Mail", "Automatically Equip Mail When Click", function()
+fireclickdetector(game.Workspace.Lobby.Mail.ClickDetector)
+end)
+
+local Tab5Section = Tab5:NewSection("T H I C K Not Work")
+
+Tab5Section:NewButton("Equip Golden", "Automatically Equip Golden When Click", function()
+fireclickdetector(game.Workspace.Lobby.Golden.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Squid", "Automatically Equip Squid When Click", function()
+fireclickdetector(game.Workspace.Lobby.Squid.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Cheeky", "Automatically Equip Cheeky When Click", function()
+fireclickdetector(game.Workspace.Lobby.Cheeky.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Reaper", "Automatically Equip Reaper When Click", function()
+fireclickdetector(game.Workspace.Lobby.Reaper.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Replica", "Automatically Equip Replica When Click", function()
+fireclickdetector(game.Workspace.Lobby.Replica.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Defense", "Automatically Equip Defense When Click", function()
+fireclickdetector(game.Workspace.Lobby.Defense.ClickDetector)
 end)
