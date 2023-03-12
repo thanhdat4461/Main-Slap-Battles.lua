@@ -1846,20 +1846,20 @@ Tab4Section:NewButton("Brazil Badges","Free Brazil Badge",function()
 firetouchinterest(game:GetService("Workspace")["Lobby"]["brazil"]["portal"]);
 end)
 
-Tab5Section:NewButton("Equip Default", "Automatically Equip Default When Click", function()
+Tab5Section:NewButton("Equip Default (Free Glove Only 0 Slap)", "Automatically Equip Default When Click", function()
 fireclickdetector(game.Workspace.Lobby.Default.ClickDetector)
 end)
 
 
-Tab5Section:NewButton("Equip Diamond", "Automatically Equip Diamond When Click", function()
+Tab5Section:NewButton("Equip Diamond (Need 35 Slap)", "Automatically Equip Diamond When Click", function()
 fireclickdetector(game.Workspace.Lobby.Diamond.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip ZZZZZZZ", "Automatically Equip ZZZZZZZ When Click", function()
+Tab5Section:NewButton("Equip ZZZZZZZ (Neex 70 Slap)", "Automatically Equip ZZZZZZZ When Click", function()
 fireclickdetector(game.Workspace.Lobby.ZZZZZZZ.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Extended", "Automatically Equip Extended When Click", function()
+Tab5Section:NewButton("Equip Extended (Need 105 Slap)", "Automatically Equip Extended When Click", function()
 fireclickdetector(game.Workspace.Lobby.Extended.ClickDetector)
 end)
 
@@ -1907,7 +1907,9 @@ Tab5Section:NewButton("Equip Stun", "Automatically Equip Stun When Click", funct
 fireclickdetector(game.Workspace.Lobby.Stun.ClickDetector)
 end)
 
-local Tab5Section = Tab5:NewSection("Za Hando Not Work")
+Tab5Section:NewButton("Equip Za Hando", "Automatically Equip Za Hando When Click", function()
+fireclickdetector(game:GetService("Workspace")["Lobby"]["Za Hando"].ClickDetector);
+end)
 
 Tab5Section:NewButton("Equip Fort", "Automatically Equip Fort When Click", function()
 fireclickdetector(game.Workspace.Lobby.Fort.ClickDetector)
@@ -1941,7 +1943,9 @@ Tab5Section:NewButton("Equip Mail", "Automatically Equip Mail When Click", funct
 fireclickdetector(game.Workspace.Lobby.Mail.ClickDetector)
 end)
 
-local Tab5Section = Tab5:NewSection("T H I C K Not Work")
+Tab5Section:NewButton("Equip T H I C K", "Automatically Equip T H I C K When Click", function()
+fireclickdetector(game:GetService("Workspace")["Lobby"]["T H I C K"].ClickDetector);
+end)
 
 Tab5Section:NewButton("Equip Golden", "Automatically Equip Golden When Click", function()
 fireclickdetector(game.Workspace.Lobby.Golden.ClickDetector)
@@ -1955,7 +1959,7 @@ Tab5Section:NewButton("Equip Cheeky", "Automatically Equip Cheeky When Click", f
 fireclickdetector(game.Workspace.Lobby.Cheeky.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Reaper", "Automatically Equip Reaper When Click", function()
+Tab5Section:NewButton("Equip Reaper (Need 3500 Slap)", "Automatically Equip Reaper When Click", function()
 fireclickdetector(game.Workspace.Lobby.Reaper.ClickDetector)
 end)
 
@@ -1967,7 +1971,7 @@ Tab5Section:NewButton("Equip Defense", "Automatically Equip Defense When Click",
 fireclickdetector(game.Workspace.Lobby.Defense.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip KS/Killstreak", "Automatically Equip KS When Click", function()
+Tab5Section:NewButton("Equip KS/Killstreak (Need 5000 Slap)", "Automatically Equip KS When Click", function()
 fireclickdetector(game.Workspace.Lobby.Killstreak.ClickDetector)
 end)
 
@@ -2043,14 +2047,28 @@ Tab5Section:NewButton("Equip Booster", "Automatically Equip Booster When Click",
 fireclickdetector(game.Workspace.Lobby.Booster.ClickDetector)
 end)
 
-local Tab5Section = Tab5:NewSection("Ping Pong Not Work")
+Tab5Section:NewButton("Equip Ping Pong (Need 18500 Slap)", "Automatically Equip Ping Pong When Click", function()
+fireclickdetector(game:GetService("Workspace")["Lobby"]["Ping Pong"].ClickDetector);
+end)
 
-Tab5Section:NewButton("Equip Baller", "Automatically Equip Baller When Click", function()
+Tab5Section:NewButton("Equip Baller (Need 20000 Slap)", "Automatically Equip Baller When Click", function()
 fireclickdetector(game.Workspace.Lobby.Baller.ClickDetector)
 end)
 
-local Tab5Section = Tab5:NewSection("The Flex And GodHand Not Work")
-
-Tab5Section:NewButton("Equip Error (Last Glove)", "Automatically Equip Error When Click", function()
+Tab5Section:NewButton("Equip Error (Need 20000 Slap)", "Automatically Equip Error When Click", function()
 fireclickdetector(game.Workspace.Lobby.Error.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip God's Hand (Need 25000 Slap)", "Automatically Equip God's Hand When Click", function()
+fireclickdetector(game:GetService("Workspace")["Lobby"]["God's Hand"].ClickDetector);
+end)
+
+Tab5Section:NewButton("Equip The Flex (Need 100000 Slap)", "Automatically Equip The Flex When Click", function()
+fireclickdetector(game:GetService("Workspace")["Lobby"]["The Flex"].ClickDetector);
+end)
+
+local Tab5Section = Tab5:NewSection("Other Equip Glove")
+
+Tab5Section:NewButton("Equip OVERKILL (Need Buy Gamepass)", "Automatically Equip OVERKILL When Click", function()
+fireclickdetector(game.Workspace.Lobby.OVERKILL.ClickDetector)
 end)
