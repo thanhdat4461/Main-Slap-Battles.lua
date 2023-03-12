@@ -2006,3 +2006,51 @@ end)
 Tab5Section:NewButton("Equip Engineer", "Automatically Equip Engineer When Click", function()
 fireclickdetector(game.Workspace.Lobby.Engineer.ClickDetector)
 end)
+
+Tab5Section:NewButton("Equip Rocky", "Automatically Equip Rocky When Click", function()
+fireclickdetector(game.Workspace.Lobby.Rocky.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Conveyor", "Automatically Equip Conveyor When Click", function()
+fireclickdetector(game.Workspace.Lobby.Conveyor.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Phantom", "Automatically Equip Phantom When Click", function()
+fireclickdetector(game.Workspace.Lobby.Phantom.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Wormhole", "Automatically Equip Wormhole When Click", function()
+fireclickdetector(game.Workspace.Lobby.Wormhole.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip STOP", "Automatically Equip STOP When Click", function()
+fireclickdetector(game.Workspace.Lobby.STOP.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Track", "Automatically Equip Track When Click", function()
+fireclickdetector(game.Workspace.Lobby.Track.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Tableflip", "Automatically Equip Tableflip When Click", function()
+fireclickdetector(game.Workspace.Lobby.Tableflip.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Shield", "Automatically Equip Shield When Click", function()
+fireclickdetector(game.Workspace.Lobby.Shield.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Booster", "Automatically Equip Booster When Click", function()
+fireclickdetector(game.Workspace.Lobby.Booster.ClickDetector)
+end)
+
+local Tab5Section = Tab5:NewSection("Ping Pong Not Work")
+
+Tab5Section:NewButton("Equip Baller", "Automatically Equip Baller When Click", function()
+fireclickdetector(game.Workspace.Lobby.Baller.ClickDetector)
+end)
+
+local Tab5Section = Tab5:NewSection("The Flex And GodHand Not Work")
+
+Tab5Section:NewButton("Equip Error (Last Glove)", "Automatically Equip Error When Click", function()
+fireclickdetector(game.Workspace.Lobby.Error.ClickDetector)
+end)
