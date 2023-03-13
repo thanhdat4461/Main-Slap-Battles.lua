@@ -2220,12 +2220,13 @@ Tab5Section:NewButton("Equip fish (Need Own Badges)", "Automatically Equip fish 
 fireclickdetector(game.Workspace.Lobby.fish.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip 🗿 (Need Own Badges)", "Automatically Equip 🗿 When Click", function()
+Tab5Section:NewButton("Equip Moai (Need Own Badges)", "Automatically Equip Moai When Click", function()
 fireclickdetector(game:GetService("Workspace")["Lobby"]["🗿"].ClickDetector);
 end)
 
 Tab5Section:NewButton("Equip Obby (Need Own Badges)", "Automatically Equip Obby When Click", function()
 fireclickdetector(game.Workspace.Lobby.Obby.ClickDetector)
+print("Cant Add emoji moai :sad:")
 end)
 
 Tab5Section:NewButton("Equip Voodoo (Need Own Badges)", "Automatically Equip Voodoo When Click", function()
