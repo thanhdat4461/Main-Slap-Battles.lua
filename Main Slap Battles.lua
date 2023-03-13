@@ -2116,5 +2116,17 @@ fireclickdetector(game.Workspace.Lobby.Shard.ClickDetector)
 end)
 
 Tab5Section:NewButton("Equip potato (Need Own Badges)", "Automatically Equip potato When Click", function()
-fireclickdetector(game:GetService("Workspace")["Arena"]["default island"]["potato"].ClickDetector);
+fireclickdetector(game.Workspace.Lobby.potato.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip CULT", "Automatically Equip CULT When Click", function()
+fireclickdetector(game.Workspace.Lobby.CULT.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip bob", "Automatically Equip bob When Click", function()
+fireclickdetector(game.Workspace.Lobby.bob.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip buddies", "Automatically Equip buddies When Click", function()
+fireclickdetector(game.Workspace.Lobby.buddies.ClickDetector)
 end)
