@@ -1834,7 +1834,6 @@ Tab5Section:NewButton("Equip Default (Free Glove Only 0 Slap)", "Automatically E
 fireclickdetector(game.Workspace.Lobby.Default.ClickDetector)
 end)
 
-
 Tab5Section:NewButton("Equip Diamond (Need 45 Slap)", "Automatically Equip Diamond When Click", function()
 fireclickdetector(game.Workspace.Lobby.Diamond.ClickDetector)
 end)
@@ -1855,83 +1854,83 @@ Tab5Section:NewButton("Equip Snow (Need 195 Slap)", "Automatically Equip Snow Wh
 fireclickdetector(game.Workspace.Lobby.Snow.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Pull", "Automatically Equip Pull When Click", function()
+Tab5Section:NewButton("Equip Pull (Need 250 Slap)", "Automatically Equip Pull When Click", function()
 fireclickdetector(game.Workspace.Lobby.Pull.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Flash", "Automatically Equip Flash When Click", function()
+Tab5Section:NewButton("Equip Flash (Need 315 Slap)", "Automatically Equip Flash When Click", function()
 fireclickdetector(game.Workspace.Lobby.Flash.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Spring", "Automatically Equip Spring When Click", function()
+Tab5Section:NewButton("Equip Spring (Need 380 Slap)", "Automatically Equip Spring When Click", function()
 fireclickdetector(game.Workspace.Lobby.Spring.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Swapper", "Automatically Equip Swapper When", function()
+Tab5Section:NewButton("Equip Swapper (Need 420 Slap", "Automatically Equip Swapper When", function()
 fireclickdetector(game.Workspace.Lobby.Swapper.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Bull", "Automatically Equip Bull When Click", function()
+Tab5Section:NewButton("Equip Bull (Need 520 Slap)", "Automatically Equip Bull When Click", function()
 fireclickdetector(game.Workspace.Lobby.Bull.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Dice", "Automatically Equip Dice When Click", function()
+Tab5Section:NewButton("Equip Dice (Need 585 Slap)", "Automatically Equip Dice When Click", function()
 fireclickdetector(game.Workspace.Lobby.Dice.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Ghost", "Automatically Equip Ghost When Click", function()
+Tab5Section:NewButton("Equip Ghost (Need 666 Slap)", "Automatically Equip Ghost When Click", function()
 fireclickdetector(game.Workspace.Lobby.Ghost.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Thanos", "Automatically Equip Thanos When Click", function()
+Tab5Section:NewButton("Equip Thanos (Need 795 Slap)", "Automatically Equip Thanos When Click", function()
 fireclickdetector(game.Workspace.Lobby.Thanos.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Stun", "Automatically Equip Stun When Click", function()
+Tab5Section:NewButton("Equip Stun (Need 870 Slap)", "Automatically Equip Stun When Click", function()
 fireclickdetector(game.Workspace.Lobby.Stun.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Za Hando", "Automatically Equip Za Hando When Click", function()
+Tab5Section:NewButton("Equip Za Hando (Need 1000 Slap)", "Automatically Equip Za Hando When Click", function()
 fireclickdetector(game:GetService("Workspace")["Lobby"]["Za Hando"].ClickDetector);
 end)
 
-Tab5Section:NewButton("Equip Fort", "Automatically Equip Fort When Click", function()
+Tab5Section:NewButton("Equip Fort (Need 1075 Slap)", "Automatically Equip Fort When Click", function()
 fireclickdetector(game.Workspace.Lobby.Fort.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Magnet", "Automatically Equip Magnet When Click", function()
+Tab5Section:NewButton("Equip Magnet (Need 1125 Slap)", "Automatically Equip Magnet When Click", function()
 fireclickdetector(game.Workspace.Lobby.Magnet.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Pusher", "Automatically Equip Pusher When Click", function()
+Tab5Section:NewButton("Equip Pusher (Need 1250 Slap)", "Automatically Equip Pusher When Click", function()
 fireclickdetector(game.Workspace.Lobby.Pusher.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Anchor", "Automatically Equip Anchor When Click", function()
+Tab5Section:NewButton("Equip Anchor (Need 1350 Slap)", "Automatically Equip Anchor When Click", function()
 fireclickdetector(game.Workspace.Lobby.Anchor.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Space", "Automatically Equip Space When Click", function()
+Tab5Section:NewButton("Equip Space (Need 1500 Slap)", "Automatically Equip Space When Click", function()
 fireclickdetector(game.Workspace.Lobby.Space.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Boomerang", "Automatically Equip Boomerang When Click", function()
+Tab5Section:NewButton("Equip Boomerang (Need 1625 Slap)", "Automatically Equip Boomerang When Click", function()
 fireclickdetector(game.Workspace.Lobby.Boomerang.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Dream", "Automatically Equip Dream When Click", function()
+Tab5Section:NewButton("Equip Dream (Need 1750 Slap)", "Automatically Equip Dream When Click", function()
 fireclickdetector(game.Workspace.Lobby.Dream.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Mail", "Automatically Equip Mail When Click", function()
+Tab5Section:NewButton("Equip Mail (Need 2000 Slap)", "Automatically Equip Mail When Click", function()
 fireclickdetector(game.Workspace.Lobby.Mail.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip T H I C K", "Automatically Equip T H I C K When Click", function()
+Tab5Section:NewButton("Equip T H I C K (Need 2250 Slap)", "Automatically Equip T H I C K When Click", function()
 fireclickdetector(game:GetService("Workspace")["Lobby"]["T H I C K"].ClickDetector);
 end)
 
-Tab5Section:NewButton("Equip Golden", "Automatically Equip Golden When Click", function()
+Tab5Section:NewButton("Equip Golden (Need 2500 Slap)", "Automatically Equip Golden When Click", function()
 fireclickdetector(game.Workspace.Lobby.Golden.ClickDetector)
 end)
 
