@@ -2060,10 +2060,26 @@ Tab5Section:NewButton("Equip Spectator (Need Buy Gamepass)", "Automatically Equi
 fireclickdetector(game.Workspace.Lobby.Spectator.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Custom (Need Buy Gamepass)", "Automatically Equip Custom When Click", function()
-fireclickdetector(game.Workspace.Lobby.Custom.ClickDetector)
+Tab5Section:NewButton("Equip CUSTOM (Need Buy Gamepass)", "Automatically Equip CUSTOM When Click", function()
+fireclickdetector(game.Workspace.Lobby.CUSTOM.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Ultra instinct (Need Buy Gamepass)", "Automatically Equip Ultra instinct When Click", function()
-fireclickdetector(game:GetService("Workspace")["Lobby"]["Ultra instinct"].ClickDetector);
+Tab5Section:NewButton("Equip Ultra Instinct (Need Buy Gamepass)", "Automatically Equip Ultra Instinct When Click", function()
+fireclickdetector(game:GetService("Workspace")["Lobby"]["Ultra Instinct"].ClickDetector);
+end)
+
+Tab5Section:NewButton("Equip Acrobat (Join Group/Follow Owner For Get Glove)", "Automatically Equip Acrobat When Click", function()
+fireclickdetector(game.Workspace.Lobby.Acrobat.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip MEGAROCK (Need Own Badges)", "Automatically Equip MEGAROCK When Click", function()
+fireclickdetector(game.Workspace.Lobby.MEGAROCK.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Plague (Need Own Badges)", "Automatically Equip Plague When Click", function()
+fireclickdetector(game.Workspace.Lobby.Plague.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Hallow Jack (Need Own Badges)", "Automatically Equip Hallow Jack When Click", function()
+fireclickdetector(game:GetService("Workspace")["Lobby"]["Hallow Jack"].ClickDetector);
 end)
