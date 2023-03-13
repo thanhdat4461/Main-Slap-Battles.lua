@@ -1822,6 +1822,10 @@ Tab4Section:NewButton("Duck Badges","Free Duck Badge",function()
 fireclickdetector(game:GetService("Workspace")["Arena"]["default island"]["Rubber Ducky"].ClickDetector);
 end)
 
+Tab5Section:NewButton("The Lone Orange Badges", "Free Orange Badges", function()
+fireclickdetector(game:GetService("Workspace")["Arena"]["island5"]["Orange"].ClickDetector);
+end)
+
 Tab4Section:NewButton("Court Evidence Badges","Free Court Evidence Badge",function()
 fireclickdetector(game:GetService("Workspace")["Lobby"]["Scene"]["knofe"].ClickDetector);
 end)
@@ -2117,16 +2121,4 @@ end)
 
 Tab5Section:NewButton("Equip potato (Need Own Badges)", "Automatically Equip potato When Click", function()
 fireclickdetector(game.Workspace.Lobby.potato.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip CULT", "Automatically Equip CULT When Click", function()
-fireclickdetector(game.Workspace.Lobby.CULT.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip bob", "Automatically Equip bob When Click", function()
-fireclickdetector(game.Workspace.Lobby.bob.ClickDetector)
-end)
-
-Tab5Section:NewButton("Equip buddies", "Automatically Equip buddies When Click", function()
-fireclickdetector(game.Workspace.Lobby.buddies.ClickDetector)
 end)
