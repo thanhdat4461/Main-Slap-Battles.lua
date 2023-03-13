@@ -1934,11 +1934,11 @@ Tab5Section:NewButton("Equip Golden (Need 2500 Slap)", "Automatically Equip Gold
 fireclickdetector(game.Workspace.Lobby.Golden.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Squid", "Automatically Equip Squid When Click", function()
+Tab5Section:NewButton("Equip Squid (Need 2750 Slap)", "Automatically Equip Squid When Click", function()
 fireclickdetector(game.Workspace.Lobby.Squid.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Cheeky", "Automatically Equip Cheeky When Click", function()
+Tab5Section:NewButton("Equip Cheeky (Need 3000 Slap)", "Automatically Equip Cheeky When Click", function()
 fireclickdetector(game.Workspace.Lobby.Cheeky.ClickDetector)
 end)
 
@@ -1946,11 +1946,11 @@ Tab5Section:NewButton("Equip Reaper (Need 3500 Slap)", "Automatically Equip Reap
 fireclickdetector(game.Workspace.Lobby.Reaper.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Replica", "Automatically Equip Replica When Click", function()
+Tab5Section:NewButton("Equip Replica (Need 4000 Slap)", "Automatically Equip Replica When Click", function()
 fireclickdetector(game.Workspace.Lobby.Replica.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Defense", "Automatically Equip Defense When Click", function()
+Tab5Section:NewButton("Equip Defense (Need 4500 Slap)", "Automatically Equip Defense When Click", function()
 fireclickdetector(game.Workspace.Lobby.Defense.ClickDetector)
 end)
 
@@ -1958,75 +1958,75 @@ Tab5Section:NewButton("Equip KS/Killstreak (Need 5000 Slap)", "Automatically Equ
 fireclickdetector(game.Workspace.Lobby.Killstreak.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Reverse", "Automatically Equip Reverse When Click", function()
+Tab5Section:NewButton("Equip Reverse (Need 5500 Slap)", "Automatically Equip Reverse When Click", function()
 fireclickdetector(game.Workspace.Lobby.Reverse.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Shukuchi", "Automatically Equip Shukuchi When Click", function()
+Tab5Section:NewButton("Equip Shukuchi (Need 6000 Slap)", "Automatically Equip Shukuchi When Click", function()
 fireclickdetector(game.Workspace.Lobby.Shukuchi.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Duelist", "Automatically Equip Duelist When Click", function()
+Tab5Section:NewButton("Equip Duelist (Need 6500 Slap)", "Automatically Equip Duelist When Click", function()
 fireclickdetector(game.Workspace.Lobby.Duelist.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip woah", "Automatically Equip woah When Click", function()
+Tab5Section:NewButton("Equip woah (Need 7000 Slap)", "Automatically Equip woah When Click", function()
 fireclickdetector(game.Workspace.Lobby.woah.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Ice", "Automatically Equip Ice When Click", function()
+Tab5Section:NewButton("Equip Ice (Need 7500 Slap)", "Automatically Equip Ice When Click", function()
 fireclickdetector(game.Workspace.Lobby.Ice.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Gummy", "Automatically Equip Gummy When Click", function()
+Tab5Section:NewButton("Equip Gummy (Need 7750 Slap)", "Automatically Equip Gummy When Click", function()
 fireclickdetector(game.Workspace.Lobby.Gummy.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Adios", "Automatically Equip Adios When Click", function()
+Tab5Section:NewButton("Equip Adios (Need 8000 Slap)", "Automatically Equip Adios When Click", function()
 fireclickdetector(game.Workspace.Lobby.Adios.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Blocked", "Automatically Equip Blocked When Click", function()
+Tab5Section:NewButton("Equip Blocked (Need 8500 Slap)", "Automatically Equip Blocked When Click", function()
 fireclickdetector(game.Workspace.Lobby.Blocked.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Engineer", "Automatically Equip Engineer When Click", function()
+Tab5Section:NewButton("Equip Engineer (Need 9000 Slap)", "Automatically Equip Engineer When Click", function()
 fireclickdetector(game.Workspace.Lobby.Engineer.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Rocky", "Automatically Equip Rocky When Click", function()
+Tab5Section:NewButton("Equip Rocky (Need 9500 Slap)", "Automatically Equip Rocky When Click", function()
 fireclickdetector(game.Workspace.Lobby.Rocky.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Conveyor", "Automatically Equip Conveyor When Click", function()
+Tab5Section:NewButton("Equip Conveyor (Need 10000 Slap)", "Automatically Equip Conveyor When Click", function()
 fireclickdetector(game.Workspace.Lobby.Conveyor.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Phantom", "Automatically Equip Phantom When Click", function()
+Tab5Section:NewButton("Equip Phantom (Need 11000 Slap)", "Automatically Equip Phantom When Click", function()
 fireclickdetector(game.Workspace.Lobby.Phantom.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Wormhole", "Automatically Equip Wormhole When Click", function()
+Tab5Section:NewButton("Equip Wormhole (Need 12000 Slap)", "Automatically Equip Wormhole When Click", function()
 fireclickdetector(game.Workspace.Lobby.Wormhole.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip STOP", "Automatically Equip STOP When Click", function()
+Tab5Section:NewButton("Equip STOP (Need 13000 Slap)", "Automatically Equip STOP When Click", function()
 fireclickdetector(game.Workspace.Lobby.STOP.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Track", "Automatically Equip Track When Click", function()
+Tab5Section:NewButton("Equip Track (Need 14000 Slap)", "Automatically Equip Track When Click", function()
 fireclickdetector(game.Workspace.Lobby.Track.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Tableflip", "Automatically Equip Tableflip When Click", function()
+Tab5Section:NewButton("Equip Tableflip (Need 15000 Slap)", "Automatically Equip Tableflip When Click", function()
 fireclickdetector(game.Workspace.Lobby.Tableflip.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Shield", "Automatically Equip Shield When Click", function()
+Tab5Section:NewButton("Equip Shield (Need 16000 Slap)", "Automatically Equip Shield When Click", function()
 fireclickdetector(game.Workspace.Lobby.Shield.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Booster", "Automatically Equip Booster When Click", function()
+Tab5Section:NewButton("Equip Booster (Need 17000 Slap)", "Automatically Equip Booster When Click", function()
 fireclickdetector(game.Workspace.Lobby.Booster.ClickDetector)
 end)
 
