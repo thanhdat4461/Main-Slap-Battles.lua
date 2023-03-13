@@ -2171,3 +2171,11 @@ end)
 Tab5Section:NewButton("Equip Disarm (Need Own Badges)", "Automatically Equip Disarm When Click", function()
 fireclickdetector(game.Workspace.Lobby.Disarm.ClickDetector)
 end)
+
+Tab5Section:NewButton("Equip Dominance (Need Own Badges)", "Automatically Equip Dominance When Click", function()
+fireclickdetector(game.Workspace.Lobby.Dominance.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Link (Need Own Badges)", "Automatically Equip Link When Click", function()
+fireclickdetector(game.Workspace.Lobby.Link.ClickDetector)
+end)
