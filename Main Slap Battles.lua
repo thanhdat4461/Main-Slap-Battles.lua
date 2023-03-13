@@ -1822,7 +1822,7 @@ Tab4Section:NewButton("Duck Badges","Free Duck Badge",function()
 fireclickdetector(game:GetService("Workspace")["Arena"]["default island"]["Rubber Ducky"].ClickDetector);
 end)
 
-Tab5Section:NewButton("The Lone Orange Badges", "Free Orange Badges", function()
+Tab4Section:NewButton("The Lone Orange Badges", "Free Orange Badges", function()
 fireclickdetector(game:GetService("Workspace")["Arena"]["island5"]["Orange"].ClickDetector);
 end)
 
@@ -1831,7 +1831,7 @@ fireclickdetector(game:GetService("Workspace")["Lobby"]["Scene"]["knofe"].ClickD
 end)
 
 Tab4Section:NewButton("Brazil Badges","Free Brazil Badge",function()
-firetouchinterest(game:GetService("Workspace")["Lobby"]["brazil"]["portal"]);
+firetouchinterest(game:GetService("Workspace")["Lobby"]["brazil"]["portal"].TouchInterest);
 end)
 
 Tab5Section:NewButton("Equip Default (Free Glove Only 0 Slap)", "Automatically Equip Default When Click", function()
