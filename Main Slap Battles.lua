@@ -2047,7 +2047,7 @@ fireclickdetector(game:GetService("Workspace")["Lobby"]["God's Hand"].ClickDetec
 end)
 
 Tab5Section:NewButton("Equip The Flex (Need 100000 Slap)", "Automatically Equip The Flex When Click", function()
-fireclickdetector(game:GetService("Workspace")["Lobby"]["The Flex"].ClickDetector);
+fireclickdetector(game.Workspace.Lobby.Flex.ClickDetector)
 end)
 
 local Tab5Section = Tab5:NewSection("Other Equip Glove")
@@ -2082,4 +2082,12 @@ end)
 
 Tab5Section:NewButton("Equip Hallow Jack (Need Own Badges)", "Automatically Equip Hallow Jack When Click", function()
 fireclickdetector(game:GetService("Workspace")["Lobby"]["Hallow Jack"].ClickDetector);
+end)
+
+Tab5Section:NewButton("Equip [REDACTED] (Need Own Badges)", "Automatically Equip [REDACTED] When Click", function()
+fireclickdetector(game:GetService("Workspace")["Lobby"]["[REDACTED]"].ClickDetector);
+end)
+
+Tab5Section:NewButton("Equip bus (Need Own Badges)", "Automatically Equip bus When Click", function()
+fireclickdetector(game.Workspace.Lobby.bus.ClickDetector)
 end)
