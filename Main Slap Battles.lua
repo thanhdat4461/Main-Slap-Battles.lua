@@ -2131,3 +2131,83 @@ end)
 Tab5Section:NewButton("Equip buddies (Need Own Badges)", "Automatically Equip buddies When Click", function()
 fireclickdetector(game.Workspace.Lobby.buddies.ClickDetector)
 end)
+
+Tab5Section:NewButton("Equip Moon (Need Own Badges)", "Automatically Equip Moon When Click", function()
+fireclickdetector(game.Workspace.Lobby.Moon.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Jupiter (Need Own Badges)", "Automatically Equip Jupiter When Click", function()
+fireclickdetector(game.Workspace.Lobby.Jupiter.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Spy (Need Own Badges)", "Automatically Equip Spy When Click", function()
+fireclickdetector(game.Workspace.Lobby.Spy.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Detonator (Need Own Badges)", "Automatically Equip Detonator When Click", function()
+fireclickdetector(game.Workspace.Lobby.Detonator.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Rage (Need Own Badges)", "Automatically Equip Rage When Click", function()
+fireclickdetector(game.Workspace.Lobby.Rage.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Trap (Need Own Badges)", "Automatically Equip Trap When Click", function()
+fireclickdetector(game.Workspace.Lobby.Trap.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Orbit (Need Own Badges)", "Automatically Equip Orbit When Click", function()
+fireclickdetector(game.Workspace.Lobby.Orbit.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Hybrid (Need Own Badges)", "Automatically Equip Hybrid When Click", function()
+fireclickdetector(game.Workspace.Lobby.Hybrid.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Slapple (Need Own Badges)", "Automatically Equip Slapple When Click", function()
+fireclickdetector(game.Workspace.Lobby.Slapple.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Disarm (Need Own Badges)", "Automatically Equip Disarm When Click", function()
+fireclickdetector(game.Workspace.Lobby.Disarm.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Dominance (Need Own Badges)", "Automatically Equip Dominance When Click", function()
+fireclickdetector(game.Workspace.Lobby.Dominance.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Link (Need Own Badges)", "Automatically Equip Link When Click", function()
+fireclickdetector(game.Workspace.Lobby.Link.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Chain (Need Own Badges)", "Automatically Equip Chain When Click", function()
+fireclickdetector(game.Workspace.Lobby.Chain.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Rattlebones (Need Own Badges)", "Automatically Equip Rattlebones When Click", function()
+fireclickdetector(game.Workspace.Lobby.Rattlebones.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Charge (Need Own Badges)", "Automatically Equip Charge When Click", function()
+fireclickdetector(game.Workspace.Lobby.Charge.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Tycoon (Need Own Badges)", "Automatically Equip Tycoon When Click", function()
+fireclickdetector(game.Workspace.Lobby.Tycoon.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Confusion (Need Own Badges", "Automatically Equip Confusion When Click", function()
+fireclickdetector(game.Workspace.Lobby.Confusion.ClickDetector)
+end
+
+Tab5Section:NewButton("Equip Glitch (Need Own Badges)", "Automatically Equip Glitch When Click", function()
+fireclickdetector(game.Workspace.Lobby.Glitch.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Snowball (Need Own Badges)", "Automatically Equip Snowball When Click", function()
+fireclickdetector(game.Workspace.Lobby.Snowball.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Elude (Need Own Badges)", "Automatically Equip Elude When Click", function()
+fireclickdetector(game.Workspace.Lobby.Elude.ClickDetector)
+end)
