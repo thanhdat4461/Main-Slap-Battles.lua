@@ -75,25 +75,7 @@ local Tab6Section = Tab6:NewSection("Auto Get Fish Made By Anakin#3568/Other")
 
 local Tab6Section = Tab6:NewSection("Anti Ragdoll By Anakin#3568 (They Finally Add This)")
 
-local Tab6Section = Tab6:NewSection("Teleport To Plate Made By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To Main Island By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To Default Island By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To #1 Island By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To #2 Island By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To #3 Island By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To Moai Island By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To Slapple Island By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To Lobby By ThAGqoBSGE#2962")
-
-local Tab6Section = Tab6:NewSection("Teleport To Tournament By ThAGqoBSGE#2962")
+local Tab6Section = Tab6:NewSection("Teleport All Place Made By ThAGqoBSGE#2962")
 
 local Tab6Section = Tab6:NewSection("Equip All Glove By ThAGqoBSGE#2962")
 
@@ -264,6 +246,8 @@ dofullbright()
 
 Light.LightingChanged:Connect(dofullbright)
 end)
+
+local Tab1Section = Tab1:NewSection("Teleport All Place")
 
 Tab1Section:NewButton("Teleport To Main Island","Teleport On Main Island",function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -6 ,0)
@@ -1851,7 +1835,7 @@ fireclickdetector(game.Workspace.Lobby.Default.ClickDetector)
 end)
 
 
-Tab5Section:NewButton("Equip Diamond (Need 35 Slap)", "Automatically Equip Diamond When Click", function()
+Tab5Section:NewButton("Equip Diamond (Need 45 Slap)", "Automatically Equip Diamond When Click", function()
 fireclickdetector(game.Workspace.Lobby.Diamond.ClickDetector)
 end)
 
@@ -1863,11 +1847,11 @@ Tab5Section:NewButton("Equip Extended (Need 105 Slap)", "Automatically Equip Ext
 fireclickdetector(game.Workspace.Lobby.Extended.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Brick", "Automatically Equip Brick When Click", function()
+Tab5Section:NewButton("Equip Brick (Need 150 Slap)", "Automatically Equip Brick When Click", function()
 fireclickdetector(game.Workspace.Lobby.Brick.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Snow", "Automatically Equip Snow When Click", function()
+Tab5Section:NewButton("Equip Snow (Need 195 Slap)", "Automatically Equip Snow When Click", function()
 fireclickdetector(game.Workspace.Lobby.Snow.ClickDetector)
 end)
 
@@ -2071,4 +2055,16 @@ local Tab5Section = Tab5:NewSection("Other Equip Glove")
 
 Tab5Section:NewButton("Equip OVERKILL (Need Buy Gamepass)", "Automatically Equip OVERKILL When Click", function()
 fireclickdetector(game.Workspace.Lobby.OVERKILL.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Spectator (Need Buy Gamepass)", "Automatically Equip Spectator When Click", function()
+fireclickdetector(game.Workspace.Lobby.Spectator.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Custom (Need Buy Gamepass)", "Automatically Equip Custom When Click", function()
+fireclickdetector(game.Workspace.Lobby.Custom.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Ultra instinct (Need Buy Gamepass)", "Automatically Equip Ultra instinct When Click", function()
+fireclickdetector(game:GetService("Workspace")["Lobby"]["Ultra instinct"].ClickDetector);
 end)
