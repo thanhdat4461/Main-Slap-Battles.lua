@@ -2114,6 +2114,7 @@ end)
 
 Tab5Section:NewButton("Equip Jet (Need Own Badges)", "Automatically Equip Jet When Click", function()
 fireclickdetector(game.Workspace.Lobby.Jet.ClickDetector)
+end)
 
 Tab5Section:NewButton("Equip Shard (Need Own Badges)", "Automatically Equip Shard When Click", function()
 fireclickdetector(game.Workspace.Lobby.Shard.ClickDetector)
@@ -2121,4 +2122,12 @@ end)
 
 Tab5Section:NewButton("Equip potato (Need Own Badges)", "Automatically Equip potato When Click", function()
 fireclickdetector(game.Workspace.Lobby.potato.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip bob (Need Own Badges)", "Automatically Equip bob When Click", function()
+fireclickdetector(game.Workspace.Lobby.bob.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip buddies (Need Own Badges)", "Automatically Equip buddies When Click", function()
+fireclickdetector(game.Workspace.Lobby.buddies.ClickDetector)
 end)
