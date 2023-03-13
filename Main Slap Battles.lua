@@ -2091,3 +2091,30 @@ end)
 Tab5Section:NewButton("Equip bus (Need Own Badges)", "Automatically Equip bus When Click", function()
 fireclickdetector(game.Workspace.Lobby.bus.ClickDetector)
 end)
+
+Tab5Section:NewButton("Equip Mitten (Need Own Badges)", "Automatically Equip Mitten When Click", function()
+fireclickdetector(game.Workspace.Lobby.Mitten.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Warp (Need Own Badges)", "Automatically Equip Warp When Click", function()
+fireclickdetector(game.Workspace.Lobby.Warp.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Bubble (Need Own Badges)", "Automatically Equip Bubble When Click", function()
+fireclickdetector(game.Workspace.Lobby.Bubble.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Phase (Need Own Badges)", "Automatically Equip Phase When Click", function()
+fireclickdetector(game.Workspace.Lobby.Phase.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Jet (Need Own Badges)", "Automatically Equip Jet When Click", function()
+fireclickdetector(game.Workspace.Lobby.Jet.ClickDetector)
+
+Tab5Section:NewButton("Equip Shard (Need Own Badges)", "Automatically Equip Shard When Click", function()
+fireclickdetector(game.Workspace.Lobby.Shard.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip potato (Need Own Badges)", "Automatically Equip potato When Click", function()
+fireclickdetector(game:GetService("Workspace")["Arena"]["default island"]["potato"].ClickDetector);
+end)
