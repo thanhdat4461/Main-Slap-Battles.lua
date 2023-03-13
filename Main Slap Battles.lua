@@ -2211,3 +2211,43 @@ end)
 Tab5Section:NewButton("Equip Elude (Need Own Badges)", "Automatically Equip Elude When Click", function()
 fireclickdetector(game.Workspace.Lobby.Elude.ClickDetector)
 end)
+
+Tab5Section:NewButton("Equip RNG (Need Own Badges)", "Automatically Equip RNG When Click", function()
+fireclickdetector(game.Workspace.Lobby.RNG.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip fish (Need Own Badges)", "Automatically Equip fish When Click", function()
+fireclickdetector(game.Workspace.Lobby.fish.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip 🗿 (Need Own Badges)", "Automatically Equip 🗿 When Click", function()
+fireclickdetector(game.Workspace.Lobby.🗿.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Obby (Need Own Badges)", "Automatically Equip Obby When Click", function()
+fireclickdetector(game.Workspace.Lobby.Obby.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Voodoo (Need Own Badges)", "Automatically Equip Voodoo When Click", function()
+fireclickdetector(game.Workspace.Lobby.Voodoo.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Goofy (Need Own Badges)", "Automatically Equip Goofy When Click", function()
+fireclickdetector(game.Workspace.Lobby.Goofy.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Leash (Need Own Badges)", "Automatically Equip Leash When Click", function()
+fireclickdetector(game.Workspace.Lobby.Leash.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Flamarang (Need Own Badges)", "Automatically Equip Flamarang When Click", function()
+fireclickdetector(game.Workspace.Lobby.Flamarang.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Kinetic (Need Own Badges)", "Automatically Equip Kinetic When Click", function()
+fireclickdetector(game.Workspace.Lobby.Kinetic.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Berserk", "Automatically Equip Berserk When Click", function()
+fireclickdetector(game.Workspace.Lobby.Berserk.ClickDetector)
+end)
