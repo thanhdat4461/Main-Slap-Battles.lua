@@ -2187,3 +2187,27 @@ end)
 Tab5Section:NewButton("Equip Rattlebones (Need Own Badges)", "Automatically Equip Rattlebones When Click", function()
 fireclickdetector(game.Workspace.Lobby.Rattlebones.ClickDetector)
 end)
+
+Tab5Section:NewButton("Equip Charge (Need Own Badges)", "Automatically Equip Charge When Click", function()
+fireclickdetector(game.Workspace.Lobby.Charge.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Tycoon (Need Own Badges)", "Automatically Equip Tycoon When Click", function()
+fireclickdetector(game.Workspace.Lobby.Tycoon.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Confusion (Need Own Badges", "Automatically Equip Confusion When Click", function()
+fireclickdetector(game.Workspace.Lobby.Confusion.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Glitch (Need Own Badges)", "Automatically Equip Glitch When Click", function()
+fireclickdetector(game.Workspace.Lobby.Glitch.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Snowball (Need Own Badges)", "Automatically Equip Snowball When Click", function()
+fireclickdetector(game.Workspace.Lobby.Snowball.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Elude (Need Own Badges)", "Automatically Equip Elude When Click", function()
+fireclickdetector(game.Workspace.Lobby.Elude.ClickDetector)
+end)
