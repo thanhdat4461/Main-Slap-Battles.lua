@@ -2179,3 +2179,11 @@ end)
 Tab5Section:NewButton("Equip Link (Need Own Badges)", "Automatically Equip Link When Click", function()
 fireclickdetector(game.Workspace.Lobby.Link.ClickDetector)
 end)
+
+Tab5Section:NewButton("Equip Chain (Need Own Badges)", "Automatically Equip Chain When Click", function()
+fireclickdetector(game.Workspace.Lobby.Chain.ClickDetector)
+end)
+
+Tab5Section:NewButton("Equip Rattlebones (Need Own Badges)", "Automatically Equip Rattlebones When Click", function()
+fireclickdetector(game.Workspace.Lobby.Rattlebones.ClickDetector)
+end)
