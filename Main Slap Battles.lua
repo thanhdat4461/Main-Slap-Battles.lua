@@ -2249,6 +2249,6 @@ Tab5Section:NewButton("Equip Kinetic (Need Own Badges)", "Automatically Equip Ki
 fireclickdetector(game.Workspace.Lobby.Kinetic.ClickDetector)
 end)
 
-Tab5Section:NewButton("Equip Berserk", "Automatically Equip Berserk When Click", function()
+Tab5Section:NewButton("Equip Berserk (Need Own Badges)", "Automatically Equip Berserk When Click", function()
 fireclickdetector(game.Workspace.Lobby.Berserk.ClickDetector)
 end)
