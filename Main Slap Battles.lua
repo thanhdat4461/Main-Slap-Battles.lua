@@ -51,8 +51,6 @@ end)
 
 
 
-local adminsoryt = {"Nancleox", "FerocityBeat", "Vazionous", "itsAzas", "Tencelll", "SquirrelTea123", "0_k2h", "natesfate0", "RahenRolePlayer", "Xpie101gamer", "Veslepux", "LocalDolo", "premiumsalad", "cookiebro78", "eherzon3", "ixxabdallahixxghg", "cloudzing", "austrite"}
-
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
 local window = kavoUi.CreateLib("Main Slap Battles","Ocean")
@@ -470,33 +468,6 @@ Tab2Section:NewToggle("Auto Remove Name","Automatically Remove Name When Die",fu
         
 
     end)
-
-Tab2Section:NewToggle("Auto Kick When Admin Joined","More op then auto invisible",function(bool)
-
-      getgenv().antiadmin = bool
-
-      while getgenv().antiadmin == true do
-
-       wait()
-
-       for i,v in pairs(game.Players:GetChildren()) do
-
-        for i = 1,#adminsoryt,1 do
-
-          if v.Name == adminsoryt[i] then
-
-           game.Players.LocalPlayer:Kick(adminsoryt[i].." has joined the server.")
-
-       end
-
-      end
-
-     end
-
-    end
-
-   end
-end)
 
 Tab2Section:NewToggle("Invisible Reverse [FE]","IDK to Type",function(bool)
 
