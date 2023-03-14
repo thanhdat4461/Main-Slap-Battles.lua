@@ -49,6 +49,10 @@ Namecall = hookmetamethod(game, '__namecall', function(self, ...)
 
 end)
 
+
+
+local adminsoryt = {"Nancleox", "FerocityBeat", "Vazionous", "itsAzas", "Tencelll", "SquirrelTea123", "0_k2h", "natesfate0", "RahenRolePlayer", "Xpie101gamer", "Veslepux", "LocalDolo", "premiumsalad", "cookiebro78", "eherzon3", "ixxabdallahixxghg", "cloudzing", "austrite"}
+
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
 local window = kavoUi.CreateLib("Main Slap Battles","Ocean")
