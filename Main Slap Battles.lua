@@ -39,6 +39,10 @@ Namecall = hookmetamethod(game, '__namecall', function(self, ...)
 
        return
 
+   elseif getnamecallmethod() == 'FireServer' and tostring(self) == 'InfiniteJump' then
+
+       return
+
    elseif getnamecallmethod() == 'FireServer' and tostring(self) == 'AdminGUI' then
 
        return
